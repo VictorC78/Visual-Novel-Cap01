@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/escolaAlto.png"  ]
+[preload  storage="./data/bgimage/entrada.png"  ]
+[preload  storage="./data/fgimage/chara/1/Cumprimentano.png"  ]
+[preload  storage="./data/fgimage/chara/1/Livro_Timida_Fechado.png"  ]
+[preload  storage="./data/fgimage/chara/1/Livro_SorrisoCheio.png"  ]
+[preload  storage="./data/fgimage/chara/1/Falando.png"  ]
+[preload  storage="./data/fgimage/chara/1/SorrisoSimples_Fechado.png"  ]
+[return]
