@@ -1,7 +1,6 @@
 [_tb_system_call storage=system/_scene1.ks]
 
 [cm  ]
-[playbgm  volume="10"  time="1000"  loop="true"  storage="music.m4a"  ]
 [bg  storage="escolaAlto.png"  time="1000"  method="fadeIn"  cross="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -13,8 +12,11 @@ Então, vamos entrar?[p]
 
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [bg  time="1000"  method="fadeIn"  storage="entrada.png"  cross="false"  ]
-[chara_show  name="Luna"  time="1000"  wait="true"  storage="chara/1/Livro_SorrisoCheio.png"  width="348"  height="505"  left="454"  top="67"  reflect="false"  ]
+[chara_show  name="Luna"  time="1000"  wait="true"  storage="chara/2/normal_(4).png"  width="684"  height="990"  left="295"  top="-88"  reflect="false"  ]
+[tb_show_message_window  ]
+[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/sorrindo.png"  ]
 [tb_start_text mode=1 ]
 #Luna
 Olá! Sou a Luna, uma das monitoras  do Instituto. [p]
@@ -22,7 +24,7 @@ Olá! Sou a Luna, uma das monitoras  do Instituto. [p]
 
 [_tb_end_text]
 
-[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/1/Cumprimentano.png"  ]
+[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/cumprimentando.png"  ]
 [tb_start_text mode=1 ]
 #Luna
 É um prazer te receber aqui. Como está?[p]
@@ -31,14 +33,14 @@ Olá! Sou a Luna, uma das monitoras  do Instituto. [p]
 
 [_tb_end_text]
 
-[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/1/Livro_Timida_Fechado.png"  ]
+[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/timida.png"  ]
 [tb_start_text mode=1 ]
 #Luna
 Estou muito bem.[p]
 
 [_tb_end_text]
 
-[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/1/Livro_SorrisoCheio.png"  ]
+[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/normal_(4).png"  ]
 [tb_start_text mode=1 ]
 #Luna
 Vou te ajudar a conhecer melhor a nossa escola.Tenho certeza de que sua companhia será muito bem vinda pra a gente[p]
@@ -57,7 +59,7 @@ Luna, onde fica a cantina? Estou morrendo de fome[p]
 
 [_tb_end_text]
 
-[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/1/Falando.png"  ]
+[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/falando_(3).png"  ]
 [tb_start_text mode=1 ]
 #Luna
 Ah, fica logo ali, perto do hall principal. Vamos lá depois do tour, tenho certeza de que você vai adorar as opções de comida![p]
@@ -73,7 +75,7 @@ Luna, como são as aula por aqui?[p]
 
 [_tb_end_text]
 
-[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/1/Falando.png"  ]
+[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/falando_(3).png"  ]
 [tb_start_text mode=1 ]
 #Luna
 As aulas de algoritmos são incríveis! [p]
@@ -90,7 +92,7 @@ Bom, vamos[p]
 [jump  storage="scene1.ks"  target="*continue"  ]
 *continue
 
-[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/1/SorrisoSimples_Fechado.png"  ]
+[chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/timida_(2).png"  ]
 [tb_start_text mode=1 ]
 #Você
 Bom, vamos lá![p]
