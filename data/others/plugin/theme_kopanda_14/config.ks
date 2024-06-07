@@ -79,6 +79,8 @@ tf.screen_size = (function() {
 	}
 })();
 
+[screen_full]
+
 switch(tf.current_bgm_vol) {
 	case   0: tf.config_num_bgm =  0; break;
 	case  10: tf.config_num_bgm =  1; break;
