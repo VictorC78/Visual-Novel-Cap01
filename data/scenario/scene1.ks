@@ -1,7 +1,7 @@
 [_tb_system_call storage=system/_scene1.ks]
 
 [cm  ]
-[bg  storage="escolaAlto.png"  time="1000"  method="fadeIn"  cross="true"  ]
+[bg  storage="escolaAlto.png"  time="1000"  method="vanishIn"  cross="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 Bem-vindo ao Instituto Federal - Campus Salgueiro[p]

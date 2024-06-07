@@ -5,7 +5,7 @@
 ;System.title=Capitulo_1
 ;projectID=Capitulo_1
 ;game_version=0.0
-;ScreenRatio=fix
+;ScreenRatio=fit
 ;patch_apply_auto=true
 ;ScreenCentering=true
 ;useCamera=true
@@ -19,7 +19,7 @@
 ;chSpeeds.normal=30
 ;chSpeeds.slow=50
 ;defaultChEffect=none
-;defaultChEffectSpeed=0.3s
+;defaultChEffectSpeed=0.2s
 ;skipSpeed=30
 ;skipEffectIgnore=true
 ;autoSpeed=1300
@@ -71,7 +71,7 @@
 ;defaultFontSize=20
 ;defaultLineSpacing=8
 ;defaultPitch=0
-;userFace=Roboto-Regular
+;userFace=Roboto-Light
 ;defaultChColor=0xffffff
 ;defaultBold=true
 ;defaultRubySize=10
