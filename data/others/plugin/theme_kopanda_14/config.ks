@@ -70,11 +70,11 @@ tf.screen_size = (function() {
     	(document.webkitFullscreenElement !== undefined && document.webkitFullscreenElement !== null) ||
       	(document.msFullscreenElement !== undefined && document.msFullscreenElement !== null)) {
 
-    	return 'full';
+    	return 'window';
 
  	} else {
 
-  		return 'window';
+  		return 'full';
 
 	}
 })();
