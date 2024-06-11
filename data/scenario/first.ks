@@ -9,15 +9,19 @@
 [call storage="system/builder.ks"]
 [call storage="system/chara_define.ks"]
 
-;タイトルの設定
-;[title name="now loading"]
+;live2D対応
 
-;タイトル画面表示
-[jump storage="title_screen.ks"]
+[plugin name="live2d"]
+
+
 [layopt layer=2 visible=true]
 [layopt layer="message0" visible=false]
 [call storage="system/message_window.ks"]
 
+
+
+;タイトル画面表示
+[jump storage="title_screen.ks"]
 ;プラグインの設定
 [call storage="system/plugin.ks"]
 [call storage="system/plugin_third.ks"]
