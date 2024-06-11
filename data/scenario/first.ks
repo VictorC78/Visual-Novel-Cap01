@@ -3,12 +3,8 @@
 [call storage="system/builder.ks"]
 [call storage="system/chara_define.ks"]
 
-;live2D対応
 
-[plugin name="live2d"]
-
-
-[layopt layer=2 visible=true]
+[layopt layer=2 visible=false]
 [layopt layer="message0" visible=false]
 [call storage="system/message_window.ks"]
 
@@ -17,7 +13,7 @@
 [call storage="system/plugin_third.ks"]
 
 ;タイトルの設定
-;[title name="now loading"]
+;[title name="Carregando..."]
 
 ;タイトル画面表示
 [jump storage="title_screen.ks"]
