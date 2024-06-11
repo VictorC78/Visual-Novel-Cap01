@@ -1,5 +1,3 @@
-
-
 ;メニューボタン非表示
 ;[hidemenubutton]
 
@@ -22,8 +20,8 @@
 [call storage="system/plugin.ks"]
 [call storage="system/plugin_third.ks"]
 
-;タイトルの設定
-;[title name="now loading"]
+
+
 
 ;タイトル画面表示
 [jump storage="title_screen.ks"]
