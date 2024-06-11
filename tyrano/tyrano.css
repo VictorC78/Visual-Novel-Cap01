@@ -22,7 +22,8 @@ address,caption,cite,code,dfn,em,strong,th,var{
 
 input{
     background-color: transparent;
-    color: transparent;
+    border: 0 solid transparent;
+    color: white;
 }
 ol,ul{
     list-style:none;
