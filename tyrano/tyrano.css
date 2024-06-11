@@ -19,6 +19,11 @@ address,caption,cite,code,dfn,em,strong,th,var{
     font-weight:normal;
     font-style:normal;
 }
+
+input{
+    background-color: transparent;
+    color: transparent;
+}
 ol,ul{
     list-style:none;
 }
