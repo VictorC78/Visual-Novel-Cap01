@@ -7,19 +7,14 @@
 [call storage="system/builder.ks"]
 [call storage="system/chara_define.ks"]
 
-;live2D対応
-
-[plugin name="live2d"]
-
 
 [layopt layer=2 visible=true]
-[layopt layer="message0" visible=false]
+[layopt layer="message0" visible=true]
 [call storage="system/message_window.ks"]
 
 ;プラグインの設定
 [call storage="system/plugin.ks"]
 [call storage="system/plugin_third.ks"]
-
 
 
 
