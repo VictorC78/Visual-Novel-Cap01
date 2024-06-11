@@ -22,8 +22,16 @@ address,caption,cite,code,dfn,em,strong,th,var{
 
 input{
     background-color: transparent;
-    border: 0 solid transparent;
-    color: white;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus{
+    border-bottom: 1px solid gray;
 }
 ol,ul{
     list-style:none;
