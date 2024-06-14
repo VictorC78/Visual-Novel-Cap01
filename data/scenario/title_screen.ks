@@ -7,12 +7,12 @@
 [screen_full]
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
+[jump  storage="title_screen.ks"  target="*title"]
+*title
 [playbgm  volume="10"  time="1000"  loop="true"  storage="music.m4a"  ]
 [bg  storage="Banner_final.png"  time="2000"  method="puffIn"  ]
 [tb_image_show  time="1000"  storage="default/Logo.png"  width="257"  height="257"  x="527"  y="72"  _clickable_img=""  name="img_7"  ]
 [tb_image_show  time="0000"  storage="default/luxa.org-opacity-changed-barraOpcoes.png"  width="1288"  height="140"  x="-6"  y="557"  _clickable_img=""  name="img_8"  ]
-[jump  storage="title_screen.ks"  target="*title"  ]
-*title
 
 [tb_ptext_show  x="131"  y="610"  size="30"  color="0xfcf9f9"  time="000"  text="New&nbsp;Game"  face="Roboto-BoldItalic"  anim="false"  edge="0x0a0a0a"  shadow="undefined"  ]
 [tb_ptext_show  x="382"  y="610"  size="30"  color="0xfcf9f9"  time="000"  text="Load&nbsp;Game"  face="Roboto-BoldItalic"  anim="false"  edge="0x0a0a0a"  shadow="undefined"  ]
