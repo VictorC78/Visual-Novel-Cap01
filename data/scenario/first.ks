@@ -27,6 +27,7 @@
 
 ;タイトル画面表示
 [jump storage="title_screen.ks"]
+[screen_full]
 
 ;--------------------------
 
