@@ -4,7 +4,7 @@
 [hidemenubutton]
 
 [tb_clear_images]
-
+[screen_full]
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
 [playbgm  volume="10"  time="1000"  loop="true"  storage="music.m4a"  ]
