@@ -9,17 +9,20 @@ form,fieldset,input,textarea,p,blockquote,th,td{
     margin:0;
 }
 
+h1, h2, h3, h4, h5, h6, p:hover{
+    color: greenyellow
+}
 input{
     background-color: transparent;
-    border: 0;
-    border-bottom: 2px solid white;
-    color: white;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
 }
 input:focus{
-    background-color: transparent;
-    border: 0;
-    border-bottom: 2px solid white;
-    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 table{
     border-collapse: collapse;
