@@ -5,10 +5,10 @@
 
 [tb_clear_images]
 [screen_full]
-[tb_keyconfig  flag="0"  ]
-[tb_hide_message_window  ]
 [jump  storage="title_screen.ks"  target="*title"]
 *title
+[tb_keyconfig  flag="0"  ]
+[tb_hide_message_window  ]
 [playbgm  volume="10"  time="1000"  loop="true"  storage="music.m4a"  ]
 [bg  storage="Banner_final.png"  time="2000"  method="puffIn"  ]
 [tb_image_show  time="1000"  storage="default/Logo.png"  width="257"  height="257"  x="527"  y="72"  _clickable_img=""  name="img_7"  ]
