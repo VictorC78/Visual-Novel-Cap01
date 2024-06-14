@@ -6,8 +6,8 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #Luna
-Bem vindo à biblioteca[p]
-Vamos falar com a Dona Anastácia....[p]
+Bem-vindo à biblioteca![p]
+Vamos falar com a bibliotecária.[p]
 [_tb_end_text]
 
 [chara_show  name="DonaAnastacia"  time="0"  wait="true"  storage="chara/4/donaAnastacia_001.png"  width="586"  height="848"  left="166"  top="14"  reflect="false"  ]
@@ -15,7 +15,7 @@ Vamos falar com a Dona Anastácia....[p]
 [tb_start_text mode=1 ]
 #Dona Anastácia
 EI VOCÊ![p]
-Não pode entrar com mochila aqui[p]
+Não pode entrar com mochila aqui.[p]
 
 [_tb_end_text]
 
@@ -23,16 +23,16 @@ Não pode entrar com mochila aqui[p]
 [chara_mod  name="DonaAnastacia"  time="0"  cross="true"  storage="chara/4/donaAnastacia_009.png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Ah desculpa, Dona Anastácia[p]
-Ele é novo aqui, ainda não conhece as regras[p]
+Ah desculpa, Dona Anastácia.[p]
+Ele é novo aqui, ainda não conhece as regras.[p]
 [_tb_end_text]
 
 [chara_mod  name="DonaAnastacia"  time="00"  cross="true"  storage="chara/4/donaAnastacia_004.png"  ]
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/neutra3.png"  ]
 [tb_start_text mode=1 ]
 #Dona Anastácia
-Ok, mas só vou tolerar essa vez[p]
-Por gentileza, coloque sua mochila no armário[p]
+Ok, mas só vou tolerar essa vez.[p]
+Por gentileza, coloque sua mochila no armário.[p]
 [_tb_end_text]
 
 [chara_hide  name="Luna"  time="0"  wait="true"  pos_mode="true"  ]
@@ -54,7 +54,7 @@ Por gentileza, coloque sua mochila no armário[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #Dona Anastácia
-Muito bem, agora podem seguir[p]
+Muito bem, agora podem seguir.[p]
 
 [_tb_end_text]
 
@@ -62,28 +62,28 @@ Muito bem, agora podem seguir[p]
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/normal_(3).png"  ]
 [tb_start_text mode=1 ]
 #Dona Anastácia
-Obrigado por esclarecer as coisas, Luna[p]
+Obrigado por esclarecer as coisas, Luna.[p]
 
 [_tb_end_text]
 
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/sorrindo3.png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Por nada, Dona Anastácia[p]
-A gente vai seguir então, até depois[p]
+Por nada, Dona Anastácia.[p]
+A gente vai seguir então, até depois.[p]
 #Dona Anastácia
-Até[p]
+Até.[p]
 [_tb_end_text]
 
 [chara_hide  name="DonaAnastacia"  time="0"  wait="true"  pos_mode="true"  ]
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/sorrindo_(2).png"  ]
-[tb_start_text mode=1 ]
-#Você
+[tb_start_tyrano_code]
+#&f.nome
 Ela é sempre... tão exigente?[p]
 #Luna
-É.. Não é das pessoas mais paciente que conheço[p]
-Bom, deixa eu te mostrar alguns livros[p]
-[_tb_end_text]
+É.. Não é das pessoas mais pacientes que conheço[p]
+Bom, deixa eu te mostrar alguns livros.[p]
+[_tb_end_tyrano_code]
 
 [jump  storage="scene3.ks"  target="*prosseguir1"  ]
 *ignorou
@@ -95,9 +95,9 @@ Bom, deixa eu te mostrar alguns livros[p]
 [chara_show  name="DonaAnastacia"  time="0"  wait="true"  storage="chara/4/donaAnastacia_005.png"  width="586"  height="848"  left="166"  top="14"  ]
 [tb_start_text mode=1 ]
 #Dona Anastácia
-Você só pode ter perdido o juízo[p]
-Já podemos ver o tipo de aluno[p]
-Coloque essa mochila no armário, não irei pedir novamente[p]
+Você só pode ter perdido o juízo.[p]
+Já podemos ver o tipo de aluno que temos aqui.[p]
+Coloque essa mochila no armário, não irei pedir novamente.[p]
 [_tb_end_text]
 
 [chara_hide_all  time="0"  wait="true"  ]
@@ -116,7 +116,7 @@ Coloque essa mochila no armário, não irei pedir novamente[p]
 [chara_show  name="Luna"  time="0"  wait="true"  storage="chara/2/neutra.png"  width="684"  height="990"  left="520"  top="-39"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Dona Anastácia
-Isso só pode ser brincadeira[p]
+Isso só pode ser brincadeira![p]
 
 [_tb_end_text]
 
@@ -124,21 +124,21 @@ Isso só pode ser brincadeira[p]
 [tb_start_text mode=1 ]
 #Dona Anastácia
 Saia agora dessa biblioteca![p]
-E vou já ecaminhar uma reclamação para o coordenador[p]
-Você vai sofrer as consequências[p]
+E vou já ecaminhar uma reclamação para o coordenador.[p]
+Você vai sofrer as consequências.[p]
 [_tb_end_text]
 
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/neutra3.png"  ]
 [chara_mod  name="DonaAnastacia"  time="0"  cross="true"  storage="chara/4/donaAnastacia_009.png"  ]
 [tb_start_text mode=1 ]
 #Dona anastácia
-Luna, tire-o daqui agora[p]
+Luna, tire-o daqui agora![p]
 [_tb_end_text]
 
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/desculpas.png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Me desculpa mesmo por isso, Dona Anastácia[p]
+Me desculpa mesmo por isso, Dona Anastácia.[p]
 [_tb_end_text]
 
 [chara_hide  name="DonaAnastacia"  time="0"  wait="true"  pos_mode="true"  ]
@@ -160,8 +160,8 @@ Vamos. AGORA![p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #Dona Anastácia
-Da próxima vez me obedeça imediatamente[p]
-Aqui existe regras e respeito[p]
+Da próxima vez me obedeça imediatamente![p]
+Aqui existe regras e respeito.[p]
 
 [_tb_end_text]
 
@@ -169,7 +169,7 @@ Aqui existe regras e respeito[p]
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/desculpas.png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Me desculpa pelo inconveniente[p]
+Me desculpa pelo inconveniente.[p]
 Podemos seguir agora?[p]
 
 [_tb_end_text]
@@ -177,13 +177,13 @@ Podemos seguir agora?[p]
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/normal_(3).png"  ]
 [tb_start_text mode=1 ]
 #Dona Anastácia
-Podem[p]
+Sim, podem.[p]
 [_tb_end_text]
 
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/falando.png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Obrigada![p]
+Obrigada.[p]
 [_tb_end_text]
 
 [chara_hide  name="DonaAnastacia"  time="1000"  wait="true"  pos_mode="true"  ]
@@ -191,8 +191,8 @@ Obrigada![p]
 [tb_start_text mode=1 ]
 #Luna
 Seu primeiro dia aqui e já faz essas coisas?[p]
-Cuidado que o pessoal não costuma ser solidário [p]
-Vamos até a prateleira[p]
+Cuidado que o pessoal não costuma ser solidário.[p]
+Vamos até a prateleira.[p]
 [_tb_end_text]
 
 [jump  storage="scene3.ks"  target="*prosseguir1"  ]
@@ -207,16 +207,16 @@ Vamos até a prateleira[p]
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/falando_(3).png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Existe uma infinidade de livros por aqui[p]
-Escolha 1 para levar, vou te dar algumas opções[p]
+Existe uma infinidade de livros por aqui.[p]
+Escolha 1 para levar, vou te dar algumas opções.[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
 [chara_hide  name="Luna"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="0"  method="puffIn"  storage="estandeDeLivros_zoom.png"  cross="true"  ]
 [button  storage="livro1.ks"  target=""  graphic="livro1.jpg"  width="329"  height="459"  x="133"  y="135"  _clickable_img=""  name="img_105"  ]
-[button  storage="livro1.ks"  target=""  graphic="livro2.jpg"  width="338"  height="457"  x="485"  y="135"  _clickable_img=""  name="img_106"  ]
-[button  storage="livro1.ks"  target=""  graphic="livro3.jpg"  width="305"  height="456"  x="845"  y="134"  _clickable_img=""  name="img_107"  ]
+[button  storage="livro2.ks"  target=""  graphic="livro2.jpg"  width="338"  height="457"  x="485"  y="135"  _clickable_img=""  name="img_106"  ]
+[button  storage="livro3.ks"  target=""  graphic="livro3.jpg"  width="305"  height="456"  x="845"  y="134"  _clickable_img=""  name="img_107"  ]
 [s  ]
 *prosseguir2
 
@@ -231,29 +231,23 @@ O QUE VOCÊ PENSA QUE TÁ FAZENDO?[p]
 [_tb_end_text]
 
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/neutra.png"  ]
-[tb_start_text mode=1 ]
-#Você
-Aquela mulher é insuportável, cara[p]
-[_tb_end_text]
+[tb_start_tyrano_code]
+#&f.nome
+Aquela mulher é insuportável, cara.[p]
+[_tb_end_tyrano_code]
 
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/brava.png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Ela é assim com todo mundo[p]
-E principalmente com quem faz esse tipo de gracinha[p]
+Ela é assim com todo mundo.[p]
+E principalmente com quem faz esse tipo de gracinha.[p]
 [_tb_end_text]
 
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/decepcao.png"  ]
 [tb_start_text mode=1 ]
 #Luna
 Ah...[p]
-Sinceramente, vamos continuar o tour[p]
-[_tb_end_text]
-
-[chara_mod  name="Luna"  time="000"  cross="true"  storage="chara/2/neutra.png"  ]
-[tb_start_text mode=1 ]
-#Luna
-Para a aula agora[p]
+Sinceramente, vamos para a aula.[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]

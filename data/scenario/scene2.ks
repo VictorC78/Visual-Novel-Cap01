@@ -8,17 +8,17 @@
 [chara_show  name="Luna"  time="400"  wait="true"  storage="chara/2/normal_(4).png"  width="684"  height="990"  left="495"  top="-91"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Luna
-Aqui é o nosso hall principal[p]
-Vai encontrar bastante gente por aqui[p]
+Aqui é o nosso hall principal.[p]
+Vai encontrar bastante gente por aqui.[p]
 
 [_tb_end_text]
 
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/falando_(3).png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Por ali você vai encontrar várias portas, cada uma é pra cuidar de algum setor da escola[p]
-Coordenação, assistência, dep de ensino, enfim[p]
-Todas as dúvidas pode tirar com eles[p]
+Por ali você vai encontrar várias portas, cada uma é pra cuidar de algum setor da escola.[p]
+Coordenação, assistência, departamento de ensino, enfim...[p]
+Todas as dúvidas pode tirar com eles.[p]
 [_tb_end_text]
 
 [chara_show  name="Cadu"  time="400"  wait="true"  storage="chara/3/normal_(2).png"  width="636"  height="920"  left="163"  top="-66"  reflect="false"  ]
@@ -34,25 +34,29 @@ EI Luna, preciso de um favor...[p]
 [tb_start_text mode=1 ]
 #Cadú
 Opa, tudo bem? Você é novo por aqui?[p]
-#Você
-Sim, tudo bem, acabei de chegar[p]
+
 [_tb_end_text]
+
+[tb_start_tyrano_code]
+#&f.nome
+Sim, tudo bem, acabei de chegar.[p]
+[_tb_end_tyrano_code]
 
 [chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/cumprimentando.png"  ]
 [tb_start_text mode=1 ]
 #Cadú
-Sou o Cadú, prazer conhecer[p]
+Sou o Cadú, prazer em conhecer![p]
 [_tb_end_text]
 
 [chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/normal.png"  ]
-[tb_start_text mode=1 ]
-#Você
-Trazer, tudo bem?[p]
-[_tb_end_text]
+[tb_start_tyrano_code]
+#&f.nome
+Prazer, sou o [emb exp=f.nome]. Tudo bem?[p]
+[_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
 #Cadú
-Tudo bem[p]
+Tudo bem.[p]
 [_tb_end_text]
 
 [chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/bravo_falando_(2).png"  ]
@@ -60,84 +64,94 @@ Tudo bem[p]
 #Cadú
 Sim, Luna, preciso de ajuda. [p]
 Não aguento mais o Raul. [p]
-Tô tentando ajudar ele no conteúdo de hoje faz 2 horas e parece que não aprendeu nada[p]
+Tô tentando ajudar ele no conteúdo de hoje faz 2 horas e parece que não aprendeu nada.[p]
 
 [_tb_end_text]
 
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/brava5.png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Aí você vem e joga ele pra mim? Muito esperto[p]
+Aí você vem e joga a bomba pra mim?[p]
 [_tb_end_text]
 
 [chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/porfavor.png"  ]
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/neutra3.png"  ]
 [tb_start_text mode=1 ]
 #Cadú
-Por favor, me ajuda e fico te devendo[p]
+Por favor, me ajuda e fico te devendo...[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #Luna
-Tá, tá. Mas só posso mais tarde, agora tô fazendo um tour com ele[p]
+Tá, tá. Mas só posso mais tarde, agora tô fazendo um tour com ele.[p]
 [_tb_end_text]
 
 [chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/comemorando.png"  ]
 [tb_start_text mode=1 ]
 #Cadú
-Ah muito obrigado. Eu vou avisar a ele que depois você vai ajudá-lo[p]
+AH, MUITO OBRIGADO!!!![p]
 [_tb_end_text]
 
 [chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/normal_(2).png"  ]
+[tb_start_text mode=1 ]
+#Cadú
+Vou avisar a ele que você vai ajudá-lo.[p]
+[_tb_end_text]
+
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/brava2.png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Tudo bem. Espero que quando eu te pedir ajuda, você não dê desculpinhas[p]
+Tudo bem. Espero que quando eu te pedir ajuda, você não venha com desculpas.[p]
 [_tb_end_text]
 
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/neutra3.png"  ]
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/porfavor.png"  ]
 [tb_start_text mode=1 ]
 #Cadú
-Prometo[p]
+Prometo![p]
 
 [_tb_end_text]
 
 [chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/oi.png"  ]
 [tb_start_text mode=1 ]
 #Cadú
-Bom, vou indo[p]
+Bom, vou indo.[p]
 
 [_tb_end_text]
 
 [chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/oi_(2).png"  ]
 [tb_start_text mode=1 ]
 #Cadu
-Bom tour pra vocês[p]
+Bom tour pra vocês![p]
 #Luna
-Tchau, até mais tarde[p]
-#Você
-Valeu, a gente se vê[p]
+Tchau, até mais tarde![p]
+
 [_tb_end_text]
+
+[tb_start_tyrano_code]
+#&f.nome
+Valeu, a gente se vê.[p]
+[_tb_end_tyrano_code]
 
 [chara_hide  name="Cadu"  time="100"  wait="true"  pos_mode="true"  ]
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/normal_(4).png"  ]
-[tb_start_text mode=1 ]
-#Você
-Esse Raul é complicado mesmo[p]
-[_tb_end_text]
+[tb_start_tyrano_code]
+#&f.nome
+Pelo visto esse Raul é complicado mesmo...[p]
+[_tb_end_tyrano_code]
 
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/falando_(3).png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Você vai conhecer o elemento, pode ficar tranquilo[p]
+Aproveite enquanto ainda não o conhece, rs.[p]
 Bom, vamos?[p]
 [_tb_end_text]
 
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/sorrindo.png"  ]
-[tb_start_text mode=1 ]
-#Você
-Ei, que gato fofinho ali[p]
-[_tb_end_text]
+[tb_start_tyrano_code]
+#&f.nome
+Ei, que gato fofinho ali.[p]
+[_tb_end_tyrano_code]
 
 [tb_image_hide  time="0"  ]
 [tb_image_hide  time="0"  ]
@@ -148,8 +162,8 @@ Ei, que gato fofinho ali[p]
 [chara_mod  name="Luna"  time="000"  cross="true"  storage="chara/2/balão_023.png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Ah, é o gato Félix[p]
-Melhor não mexer com ele[p]
+Ah, é o gato Félix...[p]
+Melhor não mexer com ele.[p]
 Não costuma ser muito... carinhoso[p]
 [_tb_end_text]
 
@@ -168,10 +182,10 @@ Não costuma ser muito... carinhoso[p]
 [bg  time="0"  method="fadeIn"  storage="gato_atacando_001.png"  ]
 [playse  volume="100"  time=""  buf="0"  storage="gato_bravo.mp3"  ]
 [tb_show_message_window  ]
-[tb_start_text mode=1 ]
-#Você
+[tb_start_tyrano_code]
+#&f.nome
 AAAAAAAAAAAHHHHHHHHH![p]
-[_tb_end_text]
+[_tb_end_tyrano_code]
 
 [stopse  time="0"  buf="0"  ]
 [tb_image_hide  time="0"  ]
@@ -181,21 +195,29 @@ AAAAAAAAAAAHHHHHHHHH![p]
 [tb_start_text mode=1 ]
 #Luna
 MEU DEUS! Ele te arranhou?[p]
-#Você
-Não, mas acho que assustei ele[p]
+
 
 [_tb_end_text]
+
+[tb_start_tyrano_code]
+#&f.nome
+Não, mas acho que assustei ele.[p]
+[_tb_end_tyrano_code]
 
 [chara_mod  name="Luna"  time="-500"  cross="true"  storage="chara/2/semi_brava.png"  ]
 [tb_start_text mode=1 ]
 #Luna
 Ah, sério? [p]
 Eu falei pra não mexer com ele.[p]
-Vá de novo. Bom que deixa de ser amostradinho[p]
-Ok, já que pleo visto está bem, vamos continuar até a biblioteca[p]
-#Você
-Tudo bem, vamos lá[p]
+Vá de novo. Bom que deixa de ser amostradinho.[p]
+Ok, já que pleo visto está bem, vamos continuar até a biblioteca.[p]
+
 [_tb_end_text]
+
+[tb_start_tyrano_code]
+#&f.nome
+Tudo bem, vamos lá.[p]
+[_tb_end_tyrano_code]
 
 [tb_hide_message_window  ]
 [chara_hide  name="Luna"  time="1000"  wait="true"  pos_mode="true"  ]
@@ -210,11 +232,15 @@ Tudo bem, vamos lá[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #Luna
-Ótima escolha[p]
+Ótima escolha![p]
 Então, vamos conhecer a biblioteca?[p]
-#Você
-Vamos lá![p]
+
 [_tb_end_text]
+
+[tb_start_tyrano_code]
+#&f.nome
+Tudo bem, vamos lá.[p]
+[_tb_end_tyrano_code]
 
 [chara_hide  name="Luna"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_hide_message_window  ]

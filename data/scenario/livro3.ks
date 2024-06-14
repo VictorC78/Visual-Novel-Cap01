@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_livro1.ks]
+[_tb_system_call storage=system/_livro3.ks]
 
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="biblioteca2.png"  ]
@@ -6,11 +6,10 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #Luna
-Ótima escolha.[p]
-Vai te ajudar muito no semestre.[p]
-E esse autor é ótimo.[p]
-Esse específicamente te ajuda muito a resumir os conceitos básicos dos algoritmos.[p]
-E vai te ajudar a evoluir bastante dos porblemas mais simples para os mais difíceis.[p]
+Muito boa a escolha.[p]
+Esse vai te ajudar bastante também.[p]
+Leve em consideração que você está começando agora.[p]
+Então é legal pegar esse livro para tirar dúvidas e já aprendendo conceitos novos.[p]
 [_tb_end_text]
 
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/normal_(4).png"  ]

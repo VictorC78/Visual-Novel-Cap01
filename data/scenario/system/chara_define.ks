@@ -12,5 +12,6 @@
 
 ;=========変数宣言部分 
 [iscript] 
-f['nome']='string'; 
+f['nome']='sem nome'; 
+f['nota']=0; 
 [endscript] 

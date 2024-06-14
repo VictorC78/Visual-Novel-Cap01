@@ -1,3 +1,5 @@
-[preload  storage="./data/bgimage/Banner_Binary_Bonds.png"  ]
-[preload  storage="./data/fgimage/default/luxa.org-opacity-changed-fundo_branco.png"  ]
+[preload  storage="./data/bgimage/Banner_final.png"  ]
+[preload  storage="./data/fgimage/default/Logo.png"  ]
+[preload  storage="./data/fgimage/default/luxa.org-opacity-changed-barraOpcoes.png"  ]
+[preload  storage="./data/fgimage/default/luxa.org-opacity-changed-Fundo_preto.png"  ]
 [return]

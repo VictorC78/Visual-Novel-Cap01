@@ -19,20 +19,6 @@ address,caption,cite,code,dfn,em,strong,th,var{
     font-weight:normal;
     font-style:normal;
 }
-
-input{
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid gray;
-    color: gray;
-    padding: 5px;
-    font-size: 16px;
-    outline: none;
-}
-
-input:focus{
-    border-bottom: 1px solid gray;
-}
 ol,ul{
     list-style:none;
 }

@@ -6,7 +6,7 @@
     "pm":{
         "font_color":"0xE5DFD9",
         "name_color":"0xf9e1af",
-        "frame_opacity":150
+        "frame_opacity":255
     },
     "glink":"ts14",
     "pro":0,

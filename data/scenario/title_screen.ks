@@ -4,23 +4,34 @@
 [hidemenubutton]
 
 [tb_clear_images]
-[screen_full]
+
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
 [playbgm  volume="10"  time="1000"  loop="true"  storage="music.m4a"  ]
-[bg  storage="Banner_Binary_Bonds.png"  time="2000"  method="puffIn"  ]
+[bg  storage="Banner_final.png"  time="2000"  method="puffIn"  ]
+[tb_image_show  time="1000"  storage="default/Logo.png"  width="257"  height="257"  x="527"  y="72"  _clickable_img=""  name="img_7"  ]
+[tb_image_show  time="0000"  storage="default/luxa.org-opacity-changed-barraOpcoes.png"  width="1288"  height="140"  x="-6"  y="557"  _clickable_img=""  name="img_8"  ]
 *title
 
-[glink  color="ts14"  text="Novo&nbsp;Jogo"  x="525"  y="460"  size="20"  target="*enviarNome"  width="200"  height="53"  _clickable_img=""  ]
-[glink  color="ts14"  text="Continuar"  x="525"  y="542"  size="20"  target="*load"  width="200"  height="53"  _clickable_img=""  ]
+[tb_ptext_show  x="131"  y="610"  size="30"  color="0xfcf9f9"  time="000"  text="New&nbsp;Game"  face="Roboto-BoldItalic"  anim="false"  edge="0x0a0a0a"  shadow="undefined"  ]
+[tb_ptext_show  x="382"  y="610"  size="30"  color="0xfcf9f9"  time="000"  text="Load&nbsp;Game"  face="Roboto-BoldItalic"  anim="false"  edge="0x0a0a0a"  shadow="undefined"  ]
+[tb_ptext_show  x="648"  y="610"  size="30"  color="0xfcf9f9"  time="000"  text="Help"  face="Roboto-BoldItalic"  anim="false"  edge="0x0a0a0a"  shadow="undefined"  ]
+[tb_ptext_show  x="838"  y="610"  size="30"  color="0xfcf9f9"  time="000"  text="About"  face="Roboto-BoldItalic"  anim="false"  edge="0x0a0a0a"  shadow="undefined"  ]
+[tb_ptext_show  x="1074"  y="610"  size="30"  color="0xfcf9f9"  time="000"  text="Credits"  face="Roboto-BoldItalic"  anim="false"  edge="0x0a0a0a"  shadow="undefined"  ]
+[clickable  storage="title_screen.ks"  x="150"  y="570"  width="180"  height="119"  target="*enviarNome"  _clickable_img=""  ]
+[clickable  storage="title_screen.ks"  x="376"  y="569"  width="180"  height="119"  target="*load"  _clickable_img=""  ]
+[clickable  storage="title_screen.ks"  x="598"  y="573"  width="120"  height="120"  target=""  _clickable_img=""  ]
+[clickable  storage="title_screen.ks"  x="850"  y="571"  width="145"  height="120"  target=""  _clickable_img=""  ]
+[clickable  storage="title_screen.ks"  x="1042"  y="569"  width="180"  height="119"  target=""  _clickable_img=""  ]
 [s  ]
 *enviarNome
 
+[tb_ptext_hide  time="000"  ]
 [tb_image_hide  time="0"  ]
-[tb_image_show  time="0"  storage="default/luxa.org-opacity-changed-fundo_branco.png"  width="345"  height="230"  x="435"  y="343"  _clickable_img=""  name="img_13"  ]
-[tb_ptext_show  x="465"  y="363.99999237060547"  size="20"  color="0x000000"  time="0"  text="Coloque&nbsp;seu&nbsp;nome,&nbsp;por&nbsp;favor..."  face="Georgia"  anim="false"  edge="undefined"  shadow="undefined"  ]
-[edit  left="500"  top="415"  width="200"  height="40"  size="20"  maxchars="30"  name="f.nome"  reflect="false"  ]
-[button  storage="title_screen.ks"  target="*confirmarNome"  graphic="botaoContinuar.png"  width="147"  height="148"  x="528"  y="461"  _clickable_img=""  ]
+[tb_image_show  time="0"  storage="default/luxa.org-opacity-changed-Fundo_preto.png"  width="423"  height="282"  x="413"  y="318"  _clickable_img=""  name="img_24"  ]
+[tb_ptext_show  x="538"  y="361.99999237060547"  size="25"  color="0xfcfcfc"  time="0"  text="Digite&nbsp;seu&nbsp;nome"  face="Roboto-Light"  anim="false"  edge="0x7b7143"  shadow="undefined"  fadeout="false"  wait="false"  in_effect="fadeInRight"  out_effect="fadeOutUp"  ]
+[edit  left="528"  top="429"  width="200"  height="40"  size="20"  maxchars="30"  name="f.nome"  reflect="false"  ]
+[button  storage="title_screen.ks"  target="*confirmarNome"  graphic="botaoContinuar.png"  width="151"  height="151"  x="558"  y="497"  _clickable_img=""  name="img_27"  ]
 [s  ]
 *confirmarNome
 
