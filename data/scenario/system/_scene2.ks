@@ -15,7 +15,6 @@
 [preload  storage="./data/fgimage/chara/2/brava2.png"  ]
 [preload  storage="./data/fgimage/chara/3/oi_(2).png"  ]
 [preload  storage="./data/fgimage/chara/2/normal_(4).png"  ]
-[preload  storage="./data/fgimage/chara/2/sorrindo.png"  ]
 [preload  storage="./data/bgimage/cnto_hall_zoom.png"  ]
 [preload  storage="./data/fgimage/chara/2/balão_023.png"  ]
 [preload  storage="./data/bgimage/gato_atacando_001.png"  ]

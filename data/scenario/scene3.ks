@@ -23,7 +23,7 @@ Não pode entrar com mochila aqui.[p]
 [chara_mod  name="DonaAnastacia"  time="0"  cross="true"  storage="chara/4/donaAnastacia_009.png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Ah desculpa, Dona Anastácia.[p]
+Ah, desculpa, Dona Anastácia.[p]
 Ele é novo aqui, ainda não conhece as regras.[p]
 [_tb_end_text]
 
@@ -31,7 +31,7 @@ Ele é novo aqui, ainda não conhece as regras.[p]
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/neutra3.png"  ]
 [tb_start_text mode=1 ]
 #Dona Anastácia
-Ok, mas só vou tolerar essa vez.[p]
+Ok, mas só vou tolerar esta vez.[p]
 Por gentileza, coloque sua mochila no armário.[p]
 [_tb_end_text]
 
@@ -81,7 +81,7 @@ Até.[p]
 #&f.nome
 Ela é sempre... tão exigente?[p]
 #Luna
-É.. Não é das pessoas mais pacientes que conheço[p]
+É. Não é das pessoas mais pacientes que conheço.[p]
 Bom, deixa eu te mostrar alguns livros.[p]
 [_tb_end_tyrano_code]
 

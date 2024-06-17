@@ -13,8 +13,6 @@
 [preload  storage="./data/bgimage/salaDeAulaZoom.png"  ]
 [preload  storage="./data/fgimage/chara/5/escrevendo.png"  ]
 [preload  storage="./data/fgimage/default/Fundo_preto.png"  ]
-[preload  storage="./data/fgimage/default/aula1Images/menina_001.png"  ]
-[preload  storage="./data/fgimage/default/aula1Images/ProfNicoMini_001.png"  ]
 [preload  storage="./data/fgimage/default/aula1Images/pao.png"  ]
 [preload  storage="./data/fgimage/default/aula1Images/manteiga.png"  ]
 [preload  storage="./data/fgimage/default/aula1Images/presunto.png"  ]

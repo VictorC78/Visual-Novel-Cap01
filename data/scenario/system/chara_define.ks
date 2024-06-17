@@ -14,4 +14,5 @@
 [iscript] 
 f['nome']='sem nome'; 
 f['nota']=0; 
+f['paragrafo']='Nota: (0/100)'; 
 [endscript] 

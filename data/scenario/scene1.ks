@@ -4,7 +4,7 @@
 [bg  storage="escolaAlto.png"  time="1000"  method="vanishIn"  cross="true"  ]
 [tb_show_message_window  ]
 [tb_start_tyrano_code]
-Bem-vindo ao IF, [emb exp  = f.nome]. [p]
+Bem-vindo ao IF, [emb exp  = f.nome]! [p]
 Aqui você vai encontrar amigos para a vida inteira e um conhecimento de valor incalculável.[p]
 Hoje, nos encontramos prestes a entrar em uma jornada única, onde você terá a oportunidade de moldar sua história [p]
 Esteja preparado para fazer escolhas difíceis e enfrentar desafios.[p]
@@ -20,7 +20,7 @@ Então, vamos entrar?[p]
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/sorrindo.png"  ]
 [tb_start_tyrano_code]
 #Luna
-Olá! Sou a Luna, uma das monitoras  da nossa escola.[p]
+Olá! Sou a Luna, uma das monitoras da nossa instituição.[p]
 [_tb_end_tyrano_code]
 
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/cumprimentando.png"  ]
@@ -43,8 +43,8 @@ Muito prazer![p]
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/normal_(4).png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Vou te ajudar a conhecer melhor a nossa escola. Tenho certeza de que sua companhia será muito bem vinda pra a gente.[p]
-Então,tem alguma pergunta antes de começar? Estou ansiosa para te mostrar tudo por aqui.[p]
+Vou te ajudar a conhecer melhor a nossa escola. Tenho certeza de que sua companhia será muito agradável.[p]
+Então, tem alguma pergunta antes de começar? Estou ansiosa para te mostrar tudo por aqui.[p]
 [_tb_end_text]
 
 [glink  color="ts14"  storage="scene1.ks"  size="20"  x="913"  y="200"  width="260"  height="53"  text="Como&nbsp;são&nbsp;os&nbsp;alunos&nbsp;aqui?"  _clickable_img=""  target="*p1"  ]
@@ -109,7 +109,7 @@ Vamos lá então.[p]
 
 [tb_start_tyrano_code]
 #&f.nome
-Por enquanto não, vamos continuar.[p]
+Por enquanto não, podemos continuar.[p]
 
 [_tb_end_tyrano_code]
 

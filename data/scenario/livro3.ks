@@ -6,10 +6,10 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #Luna
-Muito boa a escolha.[p]
-Esse vai te ajudar bastante também.[p]
+Boa a escolha.[p]
+Esse livro vai te ajudar bastante também.[p]
 Leve em consideração que você está começando agora.[p]
-Então é legal pegar esse livro para tirar dúvidas e já aprendendo conceitos novos.[p]
+Então é legal pegar esse livro para tirar dúvidas e já ir aprendendo conceitos novos.[p]
 [_tb_end_text]
 
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/normal_(4).png"  ]

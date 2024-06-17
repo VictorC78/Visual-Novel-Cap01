@@ -2,8 +2,8 @@
 
 [cm  ]
 [bg  time="1000"  method="vanishIn"  storage="hall_1.png"  ]
-[tb_image_show  time="0"  storage="default/elemento1_015.png"  width="108"  height="158"  x="126"  y="564"  _clickable_img=""  name="img_3"  ]
-[tb_image_show  time="0"  storage="default/elemento1_011.png"  width="52"  height="75"  x="152"  y="580"  _clickable_img=""  name="img_4"  ]
+[tb_image_show  time="0"  storage="default/elemento1_015.png"  width="108"  height="158"  x="27"  y="571"  _clickable_img=""  name="img_2"  ]
+[tb_image_show  time="0"  storage="default/elemento1_011.png"  width="52"  height="75"  x="55"  y="589"  _clickable_img=""  name="img_3"  ]
 [tb_show_message_window  ]
 [chara_show  name="Luna"  time="400"  wait="true"  storage="chara/2/normal_(4).png"  width="684"  height="990"  left="495"  top="-91"  reflect="false"  ]
 [tb_start_text mode=1 ]
@@ -16,7 +16,7 @@ Vai encontrar bastante gente por aqui.[p]
 [chara_mod  name="Luna"  time="0"  cross="true"  storage="chara/2/falando_(3).png"  ]
 [tb_start_text mode=1 ]
 #Luna
-Por ali você vai encontrar várias portas, cada uma é pra cuidar de algum setor da escola.[p]
+Por ali você vai encontrar várias portas, cada uma é para cuidar de algum setor da escola.[p]
 Coordenação, assistência, departamento de ensino, enfim...[p]
 Todas as dúvidas pode tirar com eles.[p]
 [_tb_end_text]
@@ -26,7 +26,7 @@ Todas as dúvidas pode tirar com eles.[p]
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/normal_(3).png"  ]
 [tb_start_text mode=1 ]
 #Cadú
-EI Luna, preciso de um favor...[p]
+Olá Luna! Preciso de um favor...[p]
 
 [_tb_end_text]
 
@@ -64,7 +64,7 @@ Tudo bem.[p]
 #Cadú
 Sim, Luna, preciso de ajuda. [p]
 Não aguento mais o Raul. [p]
-Tô tentando ajudar ele no conteúdo de hoje faz 2 horas e parece que não aprendeu nada.[p]
+Estou tentando ajudar ele no conteúdo de hoje faz 2 horas e parece que não aprendeu nada.[p]
 
 [_tb_end_text]
 
@@ -122,7 +122,7 @@ Bom, vou indo.[p]
 [chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/oi_(2).png"  ]
 [tb_start_text mode=1 ]
 #Cadu
-Bom tour pra vocês![p]
+Bom tour para vocês![p]
 #Luna
 Tchau, até mais tarde![p]
 
@@ -137,7 +137,7 @@ Valeu, a gente se vê.[p]
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/normal_(4).png"  ]
 [tb_start_tyrano_code]
 #&f.nome
-Pelo visto esse Raul é complicado mesmo...[p]
+Pelo visto esse Raul dá um trabalhozinho...[p]
 [_tb_end_tyrano_code]
 
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/falando_(3).png"  ]
@@ -147,19 +147,20 @@ Aproveite enquanto ainda não o conhece, rs.[p]
 Bom, vamos?[p]
 [_tb_end_text]
 
-[chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/sorrindo.png"  ]
+[tb_hide_message_window  ]
+[tb_image_hide  time="0"  ]
+[tb_image_hide  time="0"  ]
+[bg  time="0"  method="crossfade"  storage="cnto_hall_zoom.png"  ]
+[tb_image_show  time="0"  storage="default/elemento1_015.png"  width="661"  height="956"  x="65"  y="-9"  _clickable_img=""  name="img_53"  ]
+[tb_image_show  time="0"  storage="default/elemento1_011.png"  width="388"  height="566"  x="202"  y="44"  _clickable_img=""  name="img_54"  ]
+[chara_move  name="Luna"  anim="false"  time="00"  effect="linear"  wait="false"  left="625"  top="-105"  width="684"  height="990"  ]
+[chara_mod  name="Luna"  time="000"  cross="true"  storage="chara/2/balão_023.png"  ]
+[tb_show_message_window  ]
 [tb_start_tyrano_code]
 #&f.nome
 Ei, que gato fofinho ali.[p]
 [_tb_end_tyrano_code]
 
-[tb_image_hide  time="0"  ]
-[tb_image_hide  time="0"  ]
-[bg  time="0"  method="crossfade"  storage="cnto_hall_zoom.png"  ]
-[tb_image_show  time="0"  storage="default/elemento1_015.png"  width="661"  height="956"  x="65"  y="-9"  _clickable_img=""  name="img_50"  ]
-[tb_image_show  time="0"  storage="default/elemento1_011.png"  width="388"  height="566"  x="202"  y="44"  _clickable_img=""  name="img_51"  ]
-[chara_move  name="Luna"  anim="false"  time="00"  effect="linear"  wait="false"  left="625"  top="-105"  width="684"  height="990"  ]
-[chara_mod  name="Luna"  time="000"  cross="true"  storage="chara/2/balão_023.png"  ]
 [tb_start_text mode=1 ]
 #Luna
 Ah, é o gato Félix...[p]
@@ -170,7 +171,7 @@ Não costuma ser muito... carinhoso[p]
 [tb_hide_message_window  ]
 [tb_image_hide  time="0"  ]
 [chara_hide  name="Luna"  time="0"  wait="true"  pos_mode="true"  ]
-[tb_image_show  time="000"  storage="default/elemento1_015.png"  width="661"  height="956"  x="65"  y="-9"  _clickable_img=""  name="img_58"  ]
+[tb_image_show  time="000"  storage="default/elemento1_015.png"  width="661"  height="956"  x="65"  y="-9"  _clickable_img=""  name="img_61"  ]
 [tb_image_show  time="000"  storage="default/elemento1_011.png"  width="388"  height="566"  x="202"  y="44"  _clickable_img=""  name="img_59"  ]
 [glink  color="ts14"  storage="scene2.ks"  size="20"  x="793"  y="262"  width="230"  height=""  text="Fazer&nbsp;carinho&nbsp;no&nbsp;gato"  _clickable_img=""  target="*carinho"  ]
 [glink  color="ts14"  storage="scene2.ks"  size="20"  x="792"  y="323"  width="230"  height=""  text="Seguir&nbsp;com&nbsp;o&nbsp;tour"  _clickable_img=""  target="*seguir"  ]
