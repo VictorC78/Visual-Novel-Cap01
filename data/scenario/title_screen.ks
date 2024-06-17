@@ -4,7 +4,7 @@
 [hidemenubutton]
 
 [tb_clear_images]
-
+[screen_full]
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
 [tb_ptext_hide  time="000"  ]
