@@ -8,11 +8,6 @@ form,fieldset,input,textarea,p,blockquote,th,td{
     padding:0;
     margin:0;
 }
-table{
-    border-collapse: collapse;
-    border-spacing:0;
-}
-
 input {
     background-color: transparent;
     border: none;
@@ -26,6 +21,11 @@ input {
 input:focus {
     border-bottom: 1px solid gray;
 } 
+
+table{
+    border-collapse: collapse;
+    border-spacing:0;
+}
 fieldset,img{
     border:0;
 }

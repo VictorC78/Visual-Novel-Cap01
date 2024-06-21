@@ -27,7 +27,7 @@ Olá! Sou a Luna, uma das monitoras da nossa instituição.[p]
 [tb_start_tyrano_code]
 #Luna
 Prazer te receber aqui. Qual seu nome?[p]
-#&[f.nome]
+#&f.nome
 Prazer em te conhecer, Luna.[p]
 Me chamo [emb exp  = f.nome].[p]
 

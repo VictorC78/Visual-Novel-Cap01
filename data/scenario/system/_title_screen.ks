@@ -1,5 +1,5 @@
 [preload  storage="./data/bgimage/Banner_final.png"  ]
 [preload  storage="./data/fgimage/default/Logo.png"  ]
-[preload  storage="./data/fgimage/default/luxa.org-opacity-changed-barraOpcoes.png"  ]
+[preload  storage="./data/fgimage/default/barra_inicial.png"  ]
 [preload  storage="./data/fgimage/default/luxa.org-opacity-changed-Fundo_preto.png"  ]
 [return]
