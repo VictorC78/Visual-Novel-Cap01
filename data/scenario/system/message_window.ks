@@ -20,6 +20,12 @@
 
 		
 
+            
+            [button role="fullscreen" graphic="Victor_(4).png" x="1210" y="643" width="70" height="25" visible="false" ]
+            
+
+        
+
 		;CG・回想用の共通項目
 		[eval exp="sf._tb_cg_noimage='noimage.png'" ]
 		[eval exp="sf._tb_replay_noimage='noimage.png'" ]

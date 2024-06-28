@@ -1,7 +1,5 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_Cap1Cena3.ks]
 
-[mask time=10]
-[mask_off time=10]
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="Japanese_highsc_997d43f1-b720-4560-8e57-c5ed3ec9bdb0.png"  ]
 [chara_show  name="Luna"  time="1000"  wait="true"  storage="chara/2/sorrindo_(2).png"  width="684"  height="990"  left="530"  top="-70"  reflect="false"  ]

@@ -17,4 +17,4 @@
 [preload  storage="./data/bgimage/Japanese_school_f5ed886b-11d5-48a4-9e71-bf823bf30253.png"  ]
 [preload  storage="./data/fgimage/chara/2/neutra.png"  ]
 [preload  storage="./data/fgimage/chara/2/decepcao.png"  ]
-[return] 
+[return]
