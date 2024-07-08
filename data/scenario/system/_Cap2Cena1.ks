@@ -3,5 +3,7 @@
 [preload  storage="./data/fgimage/chara/9/1_007.png"  ]
 [preload  storage="./data/fgimage/chara/9/1_001.png"  ]
 [preload  storage="./data/fgimage/chara/9/1_003.png"  ]
+[preload  storage="./data/fgimage/default/garrafa.png"  ]
+[preload  storage="./data/bgimage/bebedouro.png"  ]
 [preload  storage="./data/fgimage/chara/9/1_004.png"  ]
 [return]

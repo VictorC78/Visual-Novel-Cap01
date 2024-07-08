@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/bleachers_of_a__5b20eb0a-1b70-47d1-9c00-270a32a4e205.png"  ]
+[preload  storage="./data/fgimage/chara/7/s_017.png"  ]
+[preload  storage="./data/fgimage/chara/2/falando_(3).png"  ]
+[preload  storage="./data/fgimage/chara/7/s_001.png"  ]
+[preload  storage="./data/fgimage/chara/2/normais31_002.png"  ]
+[preload  storage="./data/fgimage/chara/2/timida.png"  ]
+[preload  storage="./data/fgimage/chara/2/normal_(4).png"  ]
+[return]

@@ -42,7 +42,7 @@
 ;maxBackLogNum=50
 ;autoRecordLabel=true
 ;unReadTextSkip=false
-;alreadyReadTextColor=0x87cefa
+;alreadyReadTextColor=0xfafafa
 ;numCharacterLayers=3
 ;scPositionX.left=160
 ;scPositionX.left_center=240
@@ -68,10 +68,10 @@
 ;frameOpacity=128
 ;defaultAutoReturn=true
 ;marginRCh=2
-;defaultFontSize=20
+;defaultFontSize=24
 ;defaultLineSpacing=8
 ;defaultPitch=0
-;userFace=Roboto-Light
+;userFace=Roboto-Bold
 ;defaultChColor=0xffffff
 ;defaultBold=true
 ;defaultRubySize=10

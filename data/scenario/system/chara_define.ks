@@ -17,6 +17,10 @@
 [chara_new  name="Neto"  jname="Neto"  storage="chara/9/1_001.png"  ]
 ;Junio
 [chara_new  name="Junio"  jname="Junio"  storage="chara/10/1_001.png"  ]
+;Pedro
+[chara_new  name="Pedro"  jname="Pedro"  storage="chara/11/1_001.png"  ]
+;Marco
+[chara_new  name="Marco"  jname="Marco"  storage="chara/12/1_001.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 
@@ -29,4 +33,9 @@ f['respondeuQ3']=0;
 f['punicao']=0; 
 f['selectCap']=0; 
 f['telaCheia']=0; 
+f['gols']=0; 
+f['ganhouFutebol']=0; 
+f['chute1']=0; 
+f['chute2']=0; 
+f['chute3']=0; 
 [endscript] 

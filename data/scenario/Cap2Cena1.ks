@@ -1,7 +1,7 @@
 [_tb_system_call storage=system/_Cap2Cena1.ks]
 
 [cm  ]
-[bg  time="1000"  method="puffIn"  storage="entrance_to_a_J_e717a345-090b-4444-94d2-30b1f3d1b147.png"  ]
+[bg  time="000"  method="crossfade"  storage="entrance_to_a_J_e717a345-090b-4444-94d2-30b1f3d1b147.png"  ]
 [tb_show_message_window  ]
 [tb_start_tyrano_code]
 #&f.nome
@@ -39,8 +39,8 @@ Então, a aula foi suspensa agora nos horários iniciais. A Luna pediu pra te av
 [_tb_end_text]
 
 [chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_001.png"  ]
-[glink  color="ts14"  storage="Cap2Cena1.ks"  size="20"  text="Obrigado&nbsp;por&nbsp;avisar."  x="817"  y="285"  width="300"  height=""  _clickable_img=""  target="*agradeceu"  ]
-[glink  color="ts14"  storage="Cap2Cena1.ks"  size="20"  text="Irei&nbsp;para&nbsp;lá&nbsp;agora."  width="300"  x="817"  y="345"  height=""  _clickable_img=""  target="*naoAgradeceu"  ]
+[glink  color="green"  storage="Cap2Cena1.ks"  size="20"  text="Obrigado&nbsp;por&nbsp;avisar."  x="817"  y="285"  width="300"  height=""  _clickable_img=""  target="*agradeceu"  ]
+[glink  color="green"  storage="Cap2Cena1.ks"  size="20"  text="Irei&nbsp;para&nbsp;lá&nbsp;agora."  width="300"  x="817"  y="345"  height=""  _clickable_img=""  target="*naoAgradeceu"  ]
 [s  ]
 *agradeceu
 
@@ -56,7 +56,104 @@ Por nada, rapaz. Escuta, posso te pedir um favor?[p]
 Eu esqueci de encher minha garrafa de água quando saí de casa e não posso sair do meu posto por enquanto. Poderia encher pra mim rapidamente?[p]
 [_tb_end_text]
 
+[glink  color="green"  storage="Cap2Cena1.ks"  size="20"  text="Encher&nbsp;a&nbsp;garrafa"  x="101"  y="117"  width=""  height=""  _clickable_img=""  target="*buscarAgua"  ]
+[glink  color="green"  storage="Cap2Cena1.ks"  size="20"  text="Ir&nbsp;para&nbsp;a&nbsp;quadra"  x="104"  y="169"  width=""  height=""  _clickable_img=""  target="*negarEncher"  ]
 [s  ]
+*buscarAgua
+
+[tb_start_tyrano_code]
+#&f.nome
+Claro, adoraria ajudar. Me dê a garrafa que vou encher para você.[p]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_003.png"  ]
+[tb_start_text mode=1 ]
+#Neto
+Muito obrigado, vai me ajudar bastante. [p]
+[_tb_end_text]
+
+[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_002.png"  ]
+[tb_image_show  time="000"  storage="default/garrafa.png"  width="474"  height="266"  x="319"  y="114"  _clickable_img=""  name="img_29"  ]
+[tb_start_text mode=1 ]
+Aqui está a garrafa.[p]
+[_tb_end_text]
+
+[tb_image_hide  time="000"  ]
+[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_003.png"  ]
+[tb_start_tyrano_code]
+#&f.nome
+Ok. Já volto.[p]
+[_tb_end_tyrano_code]
+
+[tb_hide_message_window  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="puffIn"  storage="bebedouro.png"  ]
+[tb_show_message_window  ]
+[tb_start_tyrano_code]
+#&f.nome
+"O segurança é muito legal. Na verdade, todas as pessoas daqui parecem ser legais se forem tratadas bem e com respeito."[p]
+"Se eu for legal com todos, com certeza vão me tratar bem."[p]
+"Bom, vou encher aqui a garrafa."[p]
+[_tb_end_tyrano_code]
+
+[tb_image_show  time="000"  storage="default/garrafa.png"  width="1882"  height="1059"  x="-312"  y="-256"  _clickable_img=""  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="agua.mp3"  ]
+[tb_start_text mode=1 ]
+...[p]
+[_tb_end_text]
+
+[stopse  time="1000"  buf="0"  ]
+[tb_start_tyrano_code]
+#&f.nome
+"Pronto, agora só entregar para a o Neto."[p]
+[_tb_end_tyrano_code]
+
+[tb_image_hide  time="000"  ]
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="entrance_to_a_J_e717a345-090b-4444-94d2-30b1f3d1b147.png"  ]
+[chara_show  name="Neto"  time="000"  wait="true"  storage="chara/9/1_001.png"  width="564"  height="819"  left="356"  top="64"  reflect="false"  ]
+[tb_show_message_window  ]
+[tb_start_tyrano_code]
+#&f.nome
+Aqui está sua garrafa Seu Neto. Já enchi ela[p]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_003.png"  ]
+[tb_start_text mode=1 ]
+#Neto
+Muito obrigado, rapaz. Pode contar comigo se precisar de alguma coisa.[p]
+Agora vá para a quadra que estão lhe esperando lá.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+#&f.nome
+Por nada. Já vou indo. Até depois![p]
+[_tb_end_tyrano_code]
+
+[tb_hide_message_window  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[jump  storage="Cap2Cena2.ks"  target=""  ]
+*negarEncher
+
+[tb_start_tyrano_code]
+#&f.nome
+Me desculpa, mas estou muito apressado. Preciso falar logo com meus amigos.[p]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="Neto"  time="0"  cross="true"  storage="chara/9/1_004.png"  ]
+[tb_start_text mode=1 ]
+#Neto
+Ah, tudo bem. Darei meu jeito aqui. Pode ir.[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+#&f.nome
+Ok. Até depois![p]
+[_tb_end_tyrano_code]
+
+[tb_hide_message_window  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[jump  storage="Cap2Cena2.ks"  target=""  ]
 *naoAgradeceu
 
 [tb_start_tyrano_code]

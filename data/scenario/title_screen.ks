@@ -10,7 +10,7 @@
 [tb_ptext_hide  time="000"  ]
 [tb_image_hide  time="000"  ]
 [playbgm  volume="10"  time="1000"  loop="true"  storage="music.m4a"  ]
-[bg  time="1000"  method="crossfade"  storage="ban2.jpg"  ]
+[bg  time="1000"  method="fadeIn"  storage="ban2.jpg"  ]
 [tb_image_show  time="500"  storage="default/Victor.png"  width="1648"  height="927"  x="-51"  y="-57"  _clickable_img=""  name="img_9"  ]
 [tb_image_show  time="000"  storage="default/Victor_(2).png"  width="500"  height="282"  x="-56"  y="51"  _clickable_img=""  name="img_10"  ]
 *title
