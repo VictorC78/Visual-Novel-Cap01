@@ -3,15 +3,17 @@
 [cm  ]
 [bg  time="000"  method="crossfade"  storage="entrance_to_a_J_e717a345-090b-4444-94d2-30b1f3d1b147.png"  ]
 [tb_show_message_window  ]
+[font  size="24"  color="0xffffff"  face="Roboto-BoldItalic"  ]
 [tb_start_tyrano_code]
 #&f.nome
-Minha segunda semana no Instituto Federal.[p]
+''Minha segunda semana no Instituto Federal.[p]
 Apesar de já estar aqui há uma semana, ainda não conheci a maioria das pessoas da minha turma, nem explorei todos os cantos desse lugar. No entanto, sei que ainda tenho bastante tempo para fazer isso.[p]
-Então, melhor eu entrar logo. Pela experiência do primeira dia, as regras são prioridade por aqui...[p]
+Então, melhor eu entrar logo. Pela experiência do primeira dia, as regras são prioridade por aqui...''[p]
 
 
 [_tb_end_tyrano_code]
 
+[resetfont  ]
 [chara_show  name="Neto"  time="1000"  wait="true"  storage="chara/9/1_001.png"  width="564"  height="819"  left="356"  top="64"  reflect="false"  ]
 [chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_002.png"  ]
 [tb_start_text mode=1 ]

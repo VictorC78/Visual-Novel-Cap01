@@ -38,4 +38,10 @@ f['ganhouFutebol']=0;
 f['chute1']=0; 
 f['chute2']=0; 
 f['chute3']=0; 
+f['Aula2_Var_ES']=0; 
+f['Aula2_Opr']=0; 
+f['Prova2_respondeuq1']=0; 
+f['Prova2_respondeuq2']=0; 
+f['Prova2_respondeuq3']=0; 
+f['Prova2_nota']=0; 
 [endscript] 

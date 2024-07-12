@@ -112,7 +112,6 @@ Coloque essa mochila no armário, não irei pedir novamente.[p]
 [tb_show_message_window  ]
 [chara_show  name="DonaAnastacia"  time="0"  wait="true"  storage="chara/4/donaAnastacia_005.png"  width="586"  height="848"  left="183"  top="46"  reflect="false"  ]
 [chara_show  name="Luna"  time="0"  wait="true"  storage="chara/2/neutra.png"  width="684"  height="990"  left="520"  top="-39"  reflect="false"  ]
-[tb_eval  exp="f.punicao=1"  name="punicao"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #Dona Anastácia
 Isso só pode ser brincadeira![p]

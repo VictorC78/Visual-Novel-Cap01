@@ -63,9 +63,38 @@ Você perdeu![p]
 
 [tb_eval  exp="f.ganhouFutebol=1"  name="ganhouFutebol"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [bg  time="1000"  method="puffIn"  storage="Japanese_school_3b404589-36d6-4caa-a723-5292efa91e9e.png"  ]
-[chara_show  name="Raul"  time="1000"  wait="true"  storage="chara/6/raul_010.png"  width="662"  height="959"  left="71"  top="44"  reflect="false"  ]
-[chara_show  name="Pedro"  time="1000"  wait="true"  storage="chara/11/1_003.png"  width="693"  height="1004"  left="527"  top="59"  reflect="false"  ]
+[chara_show  name="Marco"  time="1000"  wait="true"  storage="chara/12/1_013.png"  width="618"  height="896"  left="-5"  top="37"  reflect="false"  ]
+[chara_show  name="Raul"  time="1000"  wait="true"  storage="chara/6/raul_017.png"  width="607"  height="881"  left="432"  top="21"  reflect="false"  ]
+[chara_show  name="Pedro"  time="1000"  wait="true"  storage="chara/11/1_008.png"  width="637"  height="922"  left="748"  top="26"  reflect="false"  ]
 [tb_show_message_window  ]
+[chara_mod  name="Raul"  time="00"  cross="true"  storage="chara/6/raul_008.png"  ]
+[tb_start_text mode=1 ]
+#Raul
+Que beleza hein, Marco. Melhor trocar esse goleiro que não está dando conta do recado. HAHA![p]
+[_tb_end_text]
+
+[chara_mod  name="Raul"  time="00"  cross="true"  storage="chara/6/raul_017.png"  ]
+[chara_mod  name="Marco"  time="00"  cross="true"  storage="chara/12/1_011.png"  ]
+[tb_start_text mode=1 ]
+#Marco
+Você só ganhou por causa desse cara novo. Não fique se achando.[p]
+[_tb_end_text]
+
+[chara_mod  name="Marco"  time="00"  cross="true"  storage="chara/12/1_015.png"  ]
+[chara_mod  name="Pedro"  time="00"  cross="true"  storage="chara/11/1_010.png"  ]
+[tb_start_text mode=1 ]
+#Pedro
+Deixa de choradeira e dá o dinheiro da pizza logo.[p]
+[_tb_end_text]
+
+[chara_mod  name="Marco"  time="00"  cross="true"  storage="chara/12/1_011.png"  ]
+[chara_mod  name="Pedro"  time="00"  cross="true"  storage="chara/11/1_005.png"  ]
+[tb_start_text mode=1 ]
+#Marco
+Vou pegar na minha bolsa e entrego. Mas vai ter revanche.[p]
+[_tb_end_text]
+
+[chara_hide  name="Marco"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_mod  name="Raul"  time="00"  cross="true"  storage="chara/6/raul_019.png"  ]
 [tb_start_text mode=1 ]
 #Raul
@@ -96,9 +125,21 @@ Agora é melhor irmos para a cantina com o pessoal. Daqui a pouco o professor ch
 
 [tb_eval  exp="f.ganhouFutebol=0"  name="ganhouFutebol"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [bg  time="1000"  method="puffIn"  storage="Japanese_school_3b404589-36d6-4caa-a723-5292efa91e9e.png"  ]
-[chara_show  name="Raul"  time="1000"  wait="true"  storage="chara/6/raul_015.png"  width="700"  height="1014"  left="94"  top="-15"  reflect="false"  ]
-[chara_show  name="Pedro"  time="1000"  wait="true"  storage="chara/11/1_003.png"  width="693"  height="1004"  left="527"  top="59"  reflect="false"  ]
+[chara_show  name="Raul"  time="1000"  wait="true"  storage="chara/6/raul_015.png"  width="659"  height="955"  left="676"  top="33"  reflect="false"  ]
+[chara_show  name="Pedro"  time="1000"  wait="true"  storage="chara/11/1_003.png"  width="693"  height="1004"  left="326"  top="59"  reflect="false"  ]
+[chara_show  name="Marco"  time="1000"  wait="true"  storage="chara/12/1_009.png"  width="636"  height="921"  left="-107"  top="45"  reflect="false"  ]
+[chara_mod  name="Pedro"  time="00"  cross="true"  storage="chara/11/1_005.png"  ]
 [tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#Marco
+HAHAHAHAHAHA. Vocês já foram melhores viu. Sugiro trocar esse seu atacante. Tá perdendo tudo.[p]
+#Pedro
+Vai embora, irmãozinho. Vou entregar o seu dinheiro já já.[p]
+#Marco
+Acho bom hein! Até mais HAHA.[p]
+[_tb_end_text]
+
+[chara_hide  name="Marco"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_mod  name="Raul"  time="00"  cross="true"  storage="chara/6/raul_021.png"  ]
 [tb_start_text mode=1 ]
 #Raul

@@ -242,7 +242,7 @@ Hoje vamos falar sobre uma parte muito importante para a programação: Os algor
 [_tb_end_text]
 
 [jump  storage="Cap1Cena8.ks"  target="*punicao"  cond="f.punicao==1"  ]
-[jump  storage="Cap1Cena8.ks"  target="*semPunicao"  cond=""  ]
+[jump  storage="Cap1Cena8.ks"  target="*semPunicao"  cond="f.punicao!=1"  ]
 *punicao
 
 [chara_move  name="ProfNico"  anim="true"  time="300"  effect="linear"  wait="true"  left="116"  top="10"  width="664"  height="964"  ]

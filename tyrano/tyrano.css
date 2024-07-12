@@ -8,20 +8,6 @@ form,fieldset,input,textarea,p,blockquote,th,td{
     padding:0;
     margin:0;
 }
-input {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid gray;
-    color: gray;
-    padding: 5px;
-    font-size: 16px;
-    outline: none;
-}
-
-input:focus {
-    border-bottom: 1px solid gray;
-} 
-
 table{
     border-collapse: collapse;
     border-spacing:0;
