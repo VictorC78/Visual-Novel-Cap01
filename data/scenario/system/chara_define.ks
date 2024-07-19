@@ -21,6 +21,10 @@
 [chara_new  name="Pedro"  jname="Pedro"  storage="chara/11/1_001.png"  ]
 ;Marco
 [chara_new  name="Marco"  jname="Marco"  storage="chara/12/1_001.png"  ]
+;Gato_Félix
+[chara_new  name="Gato_Félix"  jname="Gato_Félix"  storage="chara/13/1_002.png"  ]
+;Farofa
+[chara_new  name="Farofa"  jname="Farofa"  storage="chara/14/1_002.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 

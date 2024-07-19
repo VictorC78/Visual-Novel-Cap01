@@ -17,11 +17,11 @@
 [tb_eval  exp="f.nota+=1"  name="nota"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [tb_eval  exp="f.respondeuQ2=1"  name="respondeuQ2"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_ptext_show  x="688"  y="445.0000228881836"  size="33"  color="0x1ff703"  time="300"  text="RESPOSTA&nbsp;CERTA"  anim="false"  face="Roboto-BoldCondensed"  edge="undefined"  shadow="undefined"  ]
-[glink  color="btn_03_lime"  storage="Cap1Cena8.ks"  size="20"  text="PRÓXIMA&nbsp;>>"  x="710"  y="552"  width="300"  height=""  _clickable_img=""  target="*atividade"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena8.ks"  size="20"  text="PRÓXIMA&nbsp;>>"  x="710"  y="552"  width="300"  height=""  _clickable_img=""  target="*atividade"  ]
 [s  ]
 *errado
 
 [tb_eval  exp="f.respondeuQ2=1"  name="respondeuQ2"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_ptext_show  x="688"  y="445.0000228881836"  size="33"  color="0xf7001d"  time="300"  text="RESPOSTA&nbsp;ERRADA"  anim="false"  face="Roboto-BoldCondensed"  edge="undefined"  shadow="undefined"  ]
-[glink  color="btn_03_lime"  storage="Cap1Cena8.ks"  size="20"  text="PRÓXIMA&nbsp;>>"  x="710"  y="552"  width="300"  height=""  _clickable_img=""  target="*atividade"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena8.ks"  size="20"  text="PRÓXIMA&nbsp;>>"  x="710"  y="552"  width="300"  height=""  _clickable_img=""  target="*atividade"  ]
 [s  ]

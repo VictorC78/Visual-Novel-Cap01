@@ -2,180 +2,175 @@
 
 [mask time=10]
 [mask_off time=10]
-[cm  ]
-[bg  time="000"  method="crossfade"  storage="entrance_to_a_J_e717a345-090b-4444-94d2-30b1f3d1b147.png"  ]
+[bg  time="1000"  method="crossfade"  storage="Japanese_highsc_997d43f1-b720-4560-8e57-c5ed3ec9bdb0.png"  ]
+[chara_show  name="Cadu"  time="1000"  wait="true"  storage="chara/3/bravo.png"  width="845"  height="1224"  left="581"  top="-79"  reflect="false"  ]
 [tb_show_message_window  ]
-[font  size="24"  color="0xffffff"  face="Roboto-BoldItalic"  ]
+[tb_start_text mode=1 ]
+#Cadú
+Vamos procurar por aqui. Talvez a ditadora da biblioteca tenha visto...[p]
+[_tb_end_text]
+
+[chara_show  name="DonaAnastacia"  time="000"  wait="true"  storage="chara/4/donaAnastacia_009.png"  width="773"  height="1119"  left="31"  top="-19"  reflect="false"  ]
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/bravo_(3).png"  ]
+[tb_start_text mode=1 ]
+#Anastácia
+Quem é a ditadora da biblioteca, rapaz?[p]
+[_tb_end_text]
+
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/falando_(3).png"  ]
+[tb_start_text mode=1 ]
+#Cadú
+Ninguém, Dona Anastácia. Deixa para lá. A senhora está encantadora hoje viu.[p]
+[_tb_end_text]
+
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/normal_(3).png"  ]
+[tb_start_text mode=1 ]
+#Anastácia
+Deixa de enrolação, menino. Fala logo o que vocês querem...[p]
+[_tb_end_text]
+
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/bravo.png"  ]
+[chara_mod  name="DonaAnastacia"  time="00"  cross="true"  storage="chara/4/donaAnastacia_007.png"  ]
 [tb_start_tyrano_code]
 #&f.nome
-''Minha segunda semana no Instituto Federal.[p]
-Apesar de já estar aqui há uma semana, ainda não conheci a maioria das pessoas da minha turma, nem explorei todos os cantos desse lugar. No entanto, sei que ainda tenho bastante tempo para fazer isso.[p]
-Então, melhor eu entrar logo. Pela experiência do primeira dia, as regras são prioridade por aqui...''[p]
-
-
+O Raul está procurando o gato dele. Pelo o que nos disse, não o vê desde sexta-feira. Então a gente está o ajudando a procurar ele. A senhora não o viu por aqui?[p]
 [_tb_end_tyrano_code]
 
-[resetfont  ]
-[chara_show  name="Neto"  time="1000"  wait="true"  storage="chara/9/1_001.png"  width="564"  height="819"  left="356"  top="64"  reflect="false"  ]
-[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_002.png"  ]
+[chara_mod  name="DonaAnastacia"  time="00"  cross="true"  storage="chara/4/donaAnastacia_005.png"  ]
 [tb_start_text mode=1 ]
-#??
-Ei você![p]
+#Anastácia
+Um gato na biblioteca? Não seja tolo. Por aqui não deixamos entrar uma mosca sequer, imagine um gato então. E se ele for da mesma personalidade do seu dono, já sei que medidas devem ser tomadas.[p]
 [_tb_end_text]
 
-[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_007.png"  ]
-[tb_start_text mode=1 ]
-#??
-Bom dia. Eu sou o Neto, segurança do instituto. Tudo bem? A Luna me pediu para te dar um recado.[p]
-[_tb_end_text]
-
-[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_001.png"  ]
+[chara_mod  name="DonaAnastacia"  time="00"  cross="true"  storage="chara/4/donaAnastacia_007.png"  ]
 [tb_start_tyrano_code]
 #&f.nome
-Bom dia, Neto. Eu sou o [emb exp="f.nome"]. Tudo bem. O que a Luna disse?[p]
+Podemos pelo menos procurar por aqui? [p]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_007.png"  ]
+[chara_mod  name="DonaAnastacia"  time="00"  cross="true"  storage="chara/4/donaAnastacia_005.png"  ]
 [tb_start_text mode=1 ]
-#Neto
-Houve um pequeno acidente em um dos laboratórios. Pelo o que entendi, deu um problema nos computadores.[p]
-Então, a aula foi suspensa agora nos horários iniciais. A Luna pediu pra te avisar que ela e os amigos estariam na quadra enquanto a aula não começa.[p]
+#Anastácia
+Claro que não. Eu passo o dia limpando a bagunça que vocês fazem nessa biblioteca. Se não forem fazer nada que tenha relação a estudo ou descanso, caiam foram daqui imediatamente.[p]
 [_tb_end_text]
 
-[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_001.png"  ]
-[glink  color="green"  storage="Cap2Cena1.ks"  size="20"  text="Obrigado&nbsp;por&nbsp;avisar."  x="817"  y="285"  width="300"  height=""  _clickable_img=""  target="*agradeceu"  ]
-[glink  color="green"  storage="Cap2Cena1.ks"  size="20"  text="Irei&nbsp;para&nbsp;lá&nbsp;agora."  width="300"  x="817"  y="345"  height=""  _clickable_img=""  target="*naoAgradeceu"  ]
+[chara_mod  name="DonaAnastacia"  time="00"  cross="true"  storage="chara/4/donaAnastacia_007.png"  ]
+[chara_move  name="Cadu"  anim="true"  time="300"  effect="linear"  wait="true"  left="672"  top="-79"  width="845"  height="1224"  ]
+[chara_move  name="DonaAnastacia"  anim="true"  time="300"  effect="linear"  wait="true"  left="316"  top="-12"  width="773"  height="1119"  ]
+[chara_show  name="Junio"  time="1000"  wait="true"  storage="chara/10/1_005.png"  width="821"  height="1189"  reflect="true"  left="-147"  top="-21"  ]
+[tb_start_text mode=1 ]
+#Junio
+Bom dia, Dona Anastácia. Bom dia, rapazes.[p]
+[_tb_end_text]
+
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/normal_(3).png"  ]
+[chara_mod  name="DonaAnastacia"  time="00"  cross="true"  storage="chara/4/donaAnastacia_008.png"  ]
+[tb_start_text mode=1 ]
+#Dona Anastácia
+Bom dia, coordenador Junio. Como o senhor está bem vestido hoje. O que deseja? Gostaria de um café?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Junio
+Ah... Muito obrigado, Dona Anastácia. Não quero, obrigado. Só queria avisar que a nossa reitora está presente no campus hoje. Ela irá passar por aqui para analisar as condições da biblioteca. [p]
+Então se tiver algo que esteja fora do lugar, por favor, peça para os funcionários limparem, pode ser?[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Anastácia
+Claro, como o senhor desejar. Estará tudo nos conformes.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#Junio
+Excelente. Estarei indo para acompanhar o resto dos servidores. Nós vamos até pátio e então viremos para cá.[p]
+[_tb_end_text]
+
+[chara_mod  name="Junio"  time="00"  cross="true"  storage="chara/10/1_002.png"  ]
+[tb_start_text mode=1 ]
+
+Bom, estou indo. Tenham um bom dia.[p]
+[_tb_end_text]
+
+[chara_hide  name="Junio"  time="500"  wait="true"  pos_mode="true"  ]
+[chara_mod  name="DonaAnastacia"  time="00"  cross="true"  storage="chara/4/donaAnastacia_005.png"  ]
+[tb_start_text mode=1 ]
+#Anastácia
+Ouviram o coordenador. Preciso ir para arrumar as coisas. Agora caiam fora daqui.[p]
+[_tb_end_text]
+
+[chara_hide  name="DonaAnastacia"  time="500"  wait="true"  pos_mode="true"  ]
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/bravo_falando.png"  ]
+[tb_start_text mode=1 ]
+#Cadu
+Estou torcendo para o dia que alguém colocar essa senhora no lugar dela...[p]
+Você ouviu que a reitora está aqui? É a oportunidade perfeita pra isso. Podemos planejar alguma coisa, o que acha?[p]
+[_tb_end_text]
+
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/bravo.png"  ]
+[tb_start_tyrano_code]
+#&f.nome
+Logo você pensando nisso? Não acho legal. Por mais irritante que ela seja, criar problemas de propósito não é nada bom. Capaz de nós dois termos problemas depois.[p]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/bravo_falando.png"  ]
+[tb_start_text mode=1 ]
+#Cadu
+Você fala assim por estar aqui a pouco tempo. Não conhece ela direito. Além do mais, viu o jeito que ela falou do gato do Raul? Qual pessoa que não gosta de animais pode ser boa?[p]
+[_tb_end_text]
+
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/bravo.png"  ]
+[tb_start_tyrano_code]
+#&f.nome
+É... Mesmo não estando por aqui há muito tempo, sei que poucos falam bem dela. Ah, não sei...[p]
+De qualquer forma, precisamos ajudar a Sofia e o Raul.[p]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/bravo_falando.png"  ]
+[tb_start_text mode=1 ]
+#Cadu
+Eles podem se virar sem a gente. Decide logo, vai me ajudar ou não?[p]
+[_tb_end_text]
+
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/bravo.png"  ]
+[glink  color="btn_16_lime"  storage="Cap3Cena2.ks"  size="20"  text="Ajudar&nbsp;Cadú"  x="100"  y="168"  width="200"  height=""  _clickable_img=""  target="*ajudouCadu"  ]
+[glink  color="btn_16_lime"  storage="Cap3Cena2.ks"  size="20"  text="Ajudar&nbsp;Raul"  x="100"  y="100"  width="200"  height=""  _clickable_img=""  target="*ajudouRaul"  ]
 [s  ]
-*agradeceu
+*ajudouCadu
 
 [tb_start_tyrano_code]
 #&f.nome
-Certo, muito obrigado por avisar, Neto[p]
+Ok, ok... Vou te ajudar. Qual seu plano?[p]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="Neto"  time="0"  cross="true"  storage="chara/9/1_003.png"  ]
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/falando.png"  ]
 [tb_start_text mode=1 ]
-#Neto
-Por nada, rapaz. Escuta, posso te pedir um favor?[p]
-Eu esqueci de encher minha garrafa de água quando saí de casa e não posso sair do meu posto por enquanto. Poderia encher pra mim rapidamente?[p]
+#Cadu
+Ótimo. Vamos até o abrigo de animais. É aqui ao lado...[p]
 [_tb_end_text]
 
-[glink  color="green"  storage="Cap2Cena1.ks"  size="20"  text="Encher&nbsp;a&nbsp;garrafa"  x="101"  y="117"  width=""  height=""  _clickable_img=""  target="*buscarAgua"  ]
-[glink  color="green"  storage="Cap2Cena1.ks"  size="20"  text="Ir&nbsp;para&nbsp;a&nbsp;quadra"  x="104"  y="169"  width=""  height=""  _clickable_img=""  target="*negarEncher"  ]
-[s  ]
-*buscarAgua
+[tb_hide_message_window  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[jump  storage="Cap3Cena3.ks"  target=""  ]
+*ajudouRaul
 
 [tb_start_tyrano_code]
 #&f.nome
-Claro, adoraria ajudar. Me dê a garrafa que vou encher para você.[p]
+Não, melhor não... Vou ajudar o Raul. Não quero nenhum problema pra mim.[p]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_003.png"  ]
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/bravo_falando.png"  ]
 [tb_start_text mode=1 ]
-#Neto
-Muito obrigado, vai me ajudar bastante. [p]
+#Cadu
+Argh, que seja então. Vou fazer isso sozinho.[p]
 [_tb_end_text]
 
-[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_002.png"  ]
-[tb_image_show  time="000"  storage="default/garrafa.png"  width="474"  height="266"  x="319"  y="114"  _clickable_img=""  name="img_29"  ]
-[tb_start_text mode=1 ]
-Aqui está a garrafa.[p]
-[_tb_end_text]
-
-[tb_image_hide  time="000"  ]
-[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_003.png"  ]
+[chara_mod  name="Cadu"  time="00"  cross="true"  storage="chara/3/bravo.png"  ]
 [tb_start_tyrano_code]
 #&f.nome
-Ok. Já volto.[p]
+Vou indo. Boa sorte...[p]
 [_tb_end_tyrano_code]
 
 [tb_hide_message_window  ]
 [chara_hide_all  time="1000"  wait="true"  ]
-[bg  time="1000"  method="puffIn"  storage="bebedouro.png"  ]
-[tb_show_message_window  ]
-[tb_start_tyrano_code]
-#&f.nome
-"O segurança é muito legal. Na verdade, todas as pessoas daqui parecem ser legais se forem tratadas bem e com respeito."[p]
-"Se eu for legal com todos, com certeza vão me tratar bem."[p]
-"Bom, vou encher aqui a garrafa."[p]
-[_tb_end_tyrano_code]
-
-[tb_image_show  time="000"  storage="default/garrafa.png"  width="1882"  height="1059"  x="-312"  y="-256"  _clickable_img=""  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="agua.mp3"  ]
-[tb_start_text mode=1 ]
-...[p]
-[_tb_end_text]
-
-[stopse  time="1000"  buf="0"  ]
-[tb_start_tyrano_code]
-#&f.nome
-"Pronto, agora só entregar para a o Neto."[p]
-[_tb_end_tyrano_code]
-
-[tb_image_hide  time="000"  ]
-[tb_hide_message_window  ]
-[bg  time="1000"  method="crossfade"  storage="entrance_to_a_J_e717a345-090b-4444-94d2-30b1f3d1b147.png"  ]
-[chara_show  name="Neto"  time="000"  wait="true"  storage="chara/9/1_001.png"  width="564"  height="819"  left="356"  top="64"  reflect="false"  ]
-[tb_show_message_window  ]
-[tb_start_tyrano_code]
-#&f.nome
-Aqui está sua garrafa Seu Neto. Já enchi ela[p]
-[_tb_end_tyrano_code]
-
-[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_003.png"  ]
-[tb_start_text mode=1 ]
-#Neto
-Muito obrigado, rapaz. Pode contar comigo se precisar de alguma coisa.[p]
-Agora vá para a quadra que estão lhe esperando lá.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-#&f.nome
-Por nada. Já vou indo. Até depois![p]
-[_tb_end_tyrano_code]
-
-[tb_hide_message_window  ]
-[chara_hide_all  time="1000"  wait="true"  ]
-[jump  storage="Cap2Cena2.ks"  target=""  ]
-*negarEncher
-
-[tb_start_tyrano_code]
-#&f.nome
-Me desculpa, mas estou muito apressado. Preciso falar logo com meus amigos.[p]
-[_tb_end_tyrano_code]
-
-[chara_mod  name="Neto"  time="0"  cross="true"  storage="chara/9/1_004.png"  ]
-[tb_start_text mode=1 ]
-#Neto
-Ah, tudo bem. Darei meu jeito aqui. Pode ir.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-#&f.nome
-Ok. Até depois![p]
-[_tb_end_tyrano_code]
-
-[tb_hide_message_window  ]
-[chara_hide_all  time="1000"  wait="true"  ]
-[jump  storage="Cap2Cena2.ks"  target=""  ]
-*naoAgradeceu
-
-[tb_start_tyrano_code]
-#&f.nome
-Ok, vou para lá agora.[p]
-[_tb_end_tyrano_code]
-
-[chara_mod  name="Neto"  time="00"  cross="true"  storage="chara/9/1_004.png"  ]
-[tb_start_text mode=1 ]
-#Neto
-Certo, recado dado.[p]
-[_tb_end_text]
-
-[tb_start_tyrano_code]
-#&f.nome
-Até mais.[p]
-[_tb_end_tyrano_code]
-
-[tb_hide_message_window  ]
-[chara_hide_all  time="1000"  wait="true"  ]
-[jump  storage="Cap2Cena2.ks"  target=""  ]
+[jump  storage="Cap3Cena5.ks"  target=""  ]

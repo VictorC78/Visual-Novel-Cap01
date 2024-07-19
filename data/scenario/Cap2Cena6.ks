@@ -7,14 +7,14 @@
 [tb_start_text mode=1 ]
 #Prof. Nico
 Bom dia, pessoal. Já peço desculpas pela demora e por dar essa aula muito rápido.[p]
-O conteúdo de hoje é variáveis, Entrada/Saída e operadores.[p]
-Serei rápido com Entrada/Saída e variáveis, pois são mais fáceis. [p]
+O conteúdo de hoje é variáveis, Entrada/Saída e Operadores.[p]
+Serei breve com Entrada/Saída e variáveis, pois são mais fáceis. [p]
 Qual querem aprender primeiro?[p]
 [_tb_end_text]
 
 [chara_mod  name="ProfNico"  time="00"  cross="true"  storage="chara/5/serio.png"  ]
-[glink  color="green"  storage="Cap2Cena6.ks"  size="20"  text="Entrada/Saída&nbsp;e&nbsp;Variáveis"  x="100"  y="100"  width=""  height=""  _clickable_img=""  target="*aulaESV"  ]
-[glink  color="green"  storage="Cap2Cena6.ks"  size="20"  text="Operadores"  x="147"  y="170"  width=""  height=""  _clickable_img=""  target="*aulaOpr"  ]
+[glink  color="btn_16_lime"  storage="Cap2Cena6.ks"  size="20"  text="Entrada/Saída&nbsp;e&nbsp;Variáveis"  x="100"  y="100"  width="350"  height=""  _clickable_img=""  target="*aulaESV"  ]
+[glink  color="btn_16_lime"  storage="Cap2Cena6.ks"  size="20"  text="Operadores"  x="100"  y="170"  width="350"  height=""  _clickable_img=""  target="*aulaOpr"  ]
 [s  ]
 *aulaESV
 
@@ -26,9 +26,9 @@ Qual querem aprender primeiro?[p]
 Vamos com Entrada/Saída agora ...[p]
 É muito simples o conceito.[p]
 Entrada são os dados que eu forneço para o algoritmo. [p]
-Saída são os dados que o algoritmo me retorna.[p]
-Por exemplo, eu quero que o algoritmo some 2 números. Eu devo fornecer os números que devem ser somados, e ele me retorna a soma deles.[p]
-Se eu quero somar 5 + 2(Entrada), eu forneço ambos ao algoritmo e ele me retornará a soma, que é 7 (Saída). [p]
+Saída são os dados que o algoritmo retorna.[p]
+Por exemplo, eu quero que o algoritmo some 2 números. Então devo fornecer os números que devem ser somados, e ele retorna a soma deles.[p]
+Se eu quero somar 5 + 2(Entrada), eu forneço ambos ao algoritmo e ele retornará a soma, que é 7 (Saída). [p]
 Fácil, não?[p]
 [_tb_end_text]
 
@@ -36,7 +36,7 @@ Fácil, não?[p]
 [chara_show  name="Cadu"  time="000"  wait="true"  storage="chara/3/novo_011.png"  width="623"  height="902"  left="670"  top="-147"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Cadú
-Essa é muito simples, professor. Já podemos ir para a próxima.[p]
+Essa é muito simples, professor. Já podemos ir para a próxima. Todo mundo vai conseguir enetender essa parte.[p]
 
 [_tb_end_text]
 
@@ -45,9 +45,9 @@ Essa é muito simples, professor. Já podemos ir para a próxima.[p]
 [tb_start_text mode=1 ]
 #Prof. Nico
 Agora variáveis. Serei rápido pois não temos muito tempo...[p]
-Variáveis é a forma que o computador nos dá para inserir os dados. Como citei os números 5 e 2, cada um pode ser representado por uma variável dentro do código.[p]
-Cada variável deve ter um nome único, e de preferência que remeta a informação que está lá dentro.[p]
-Então, se eu quiser colocar o número 5 e o 2. Eu posso criar uma variável com nome ''num1'' para o 5, e ''num2'' para o 2. Nisso, eu somo num1 com num2, e terei a soma, que é 11.[p]
+Variáveis é a forma que o computador dá para inserir os dados. Como citei os números 5 e 2, cada um pode ser representado por uma variável dentro do código.[p]
+Cada variável deve ter um nome único, e de preferência que remeta a informação que esteja lá dentro.[p]
+Então, se eu quiser colocar o número 5 e o 2. Eu posso criar uma variável com nome ''num1'' para o 5, e ''num2'' para o 2. Nisso, eu somo ''num1'' com ''num2'', e terei a soma, que é 7.[p]
 
 [_tb_end_text]
 

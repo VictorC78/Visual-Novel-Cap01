@@ -1,16 +1,16 @@
 ;メッセージレイヤの定義
 
-		[position width=1000 height=300 top=402 left=149 ]
+		[position width=1000 height=300 top=385 left=140 ]
 
 
 		
-			[position page=fore frame="caixaDeTexto.png" margint=45 marginl=10 marginr=20 marginb=10 vertical=false ]
+			[position page=fore frame="caixaDeTexto.png" margint=55 marginl=20 marginr=20 marginb=10 vertical=false ]
 		
 
-		[ptext name="chara_name_area" layer="message0" color=0xFFFFFF size=17 x=213 y=420 bold="bold" edge="undefined" shadow="undefined"]
+		[ptext name="chara_name_area" layer="message0" color=0x080808 size=25 x=200 y=400 bold="bold" edge="0xfafafa" shadow="0xffffff"]
 
 		;キャラクターの表示モードに関する定義
-		[chara_config ptext="chara_name_area" pos_mode=true time="600" memory="false" anim="true" effect="easeInQuad" pos_change_time="500" ]
+		[chara_config ptext="chara_name_area" pos_mode=true time="0" memory="false" anim="true" effect="easeInQuad" pos_change_time="500" ]
 
 		;キャラクターフォーカスなど
 		[chara_config  talk_focus="none" ]
@@ -34,7 +34,7 @@
 		;[position layer="message1" left=160 top=500 width=1000 height=200 radius=15 page=fore visible=true color="white" opacity=255 border_size="3" border_color="black" ]
 		;[position layer="message1" page=fore margint="15" marginl="20" marginr="20" marginb="20"]
 
-		[position layer="message1" width=1000 height=300 top=402 left=149 ]
+		[position layer="message1" width=1000 height=300 top=385 left=140 ]
 		[position layer="message1" page=fore margint=5 marginl=10 marginr=10 marginb=10 vertical=false opacity="150" radius="10" color="0xffffff" ]
 
 		

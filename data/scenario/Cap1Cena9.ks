@@ -13,9 +13,9 @@ E aí, o que achou da aula?[p]
 
 [chara_mod  name="Luna"  time="00"  cross="true"  storage="chara/2/normal_(4).png"  ]
 [tb_hide_message_window  ]
-[glink  color="ts14"  storage="Cap1Cena9.ks"  size="20"  text="Foi&nbsp;bem&nbsp;legal"  x="158"  y="278"  width="300"  height=""  _clickable_img=""  target="*r1"  ]
-[glink  color="ts14"  storage="Cap1Cena9.ks"  size="20"  text="Podia&nbsp;ter&nbsp;sido&nbsp;melhor"  x="158"  y="338"  width="300"  height=""  _clickable_img=""  target="*r2"  ]
-[glink  color="ts14"  storage="Cap1Cena9.ks"  size="20"  text="Muito&nbsp;chata"  x="158"  y="398"  width="300"  height=""  _clickable_img=""  target="*r3"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena9.ks"  size="20"  text="Foi&nbsp;bem&nbsp;legal"  x="158"  y="278"  width="300"  height=""  _clickable_img=""  target="*r1"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena9.ks"  size="20"  text="Podia&nbsp;ter&nbsp;sido&nbsp;melhor"  x="158"  y="338"  width="300"  height=""  _clickable_img=""  target="*r2"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena9.ks"  size="20"  text="Muito&nbsp;chata"  x="158"  y="398"  width="300"  height=""  _clickable_img=""  target="*r3"  ]
 [s  ]
 *r1
 

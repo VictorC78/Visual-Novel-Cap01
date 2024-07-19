@@ -15,11 +15,11 @@
 [tb_eval  exp="f.Prova2_nota+=1"  name="Prova2_nota"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [tb_eval  exp="f.Prova2_respondeuq1=1"  name="Prova2_respondeuq1"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_ptext_show  x="688"  y="445.0000228881836"  size="33"  color="0x1ff703"  time="300"  text="RESPOSTA&nbsp;CERTA"  anim="false"  face="Roboto-BoldCondensed"  edge="undefined"  shadow="undefined"  ]
-[glink  color="btn_03_lime"  storage="Cap2Cena6.ks"  size="20"  text="PRÓXIMA&nbsp;>>"  x="710"  y="552"  width="300"  height=""  _clickable_img=""  target="*atv2"  ]
+[glink  color="btn_16_lime"  storage="Cap2Cena6.ks"  size="20"  text="PRÓXIMA&nbsp;>>"  x="710"  y="552"  width="300"  height=""  _clickable_img=""  target="*atv2"  ]
 [s  ]
 *errado
 
 [tb_eval  exp="f.Prova2_respondeuq1=1"  name="Prova2_respondeuq1"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_ptext_show  x="688"  y="445.0000228881836"  size="33"  color="0xf71905"  time="300"  text="RESPOSTA&nbsp;ERRADA"  anim="false"  face="Roboto-BoldCondensed"  edge="undefined"  shadow="undefined"  ]
-[glink  color="btn_03_lime"  storage="Cap2Cena6.ks"  size="20"  text="PRÓXIMA&nbsp;>>"  x="710"  y="552"  width="300"  height=""  _clickable_img=""  target="*atv2"  ]
+[glink  color="btn_16_lime"  storage="Cap2Cena6.ks"  size="20"  text="PRÓXIMA&nbsp;>>"  x="710"  y="552"  width="300"  height=""  _clickable_img=""  target="*atv2"  ]
 [s  ]

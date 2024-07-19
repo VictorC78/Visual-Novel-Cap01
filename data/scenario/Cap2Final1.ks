@@ -40,7 +40,7 @@ Lindo lindo. Agora vamos comer que estou com muita fome.[p]
 [chara_mod  name="Raul"  time="00"  cross="true"  storage="chara/6/raul_010.png"  ]
 [tb_start_tyrano_code]
 #&f.nome
-Vamos. Também estou faminto. 
+Vamos. Também estou faminto.
 [_tb_end_tyrano_code]
 
 [tb_hide_message_window  ]

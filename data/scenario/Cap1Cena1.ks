@@ -47,9 +47,9 @@ Vou te ajudar a conhecer melhor a nossa escola. Tenho certeza de que sua companh
 Então, tem alguma pergunta antes de começar? Estou ansiosa para te mostrar tudo por aqui.[p]
 [_tb_end_text]
 
-[glink  color="ts14"  storage="Cap1Cena1.ks"  size="20"  x="913"  y="200"  width="260"  height="53"  text="Como&nbsp;são&nbsp;os&nbsp;alunos&nbsp;aqui?"  _clickable_img=""  target="*p1"  ]
-[glink  color="ts14"  storage="Cap1Cena1.ks"  size="20"  x="913"  y="270"  width="250"  height="73"  text="As&nbsp;aulas&nbsp;são&nbsp;muito&nbsp;<br>complicadas?"  _clickable_img=""  target="*p2"  ]
-[glink  color="ts14"  storage="Cap1Cena1.ks"  size="20"  x="912"  y="355"  width="250"  height=""  text="Não,&nbsp;podemos&nbsp;ir!"  _clickable_img=""  target="*continue"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena1.ks"  size="20"  x="913"  y="200"  width="260"  height="53"  text="Como&nbsp;são&nbsp;os&nbsp;alunos&nbsp;aqui?"  _clickable_img=""  target="*p1"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena1.ks"  size="20"  x="913"  y="270"  width="260"  height="73"  text="As&nbsp;aulas&nbsp;são&nbsp;muito&nbsp;<br>complicadas?"  _clickable_img=""  target="*p2"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena1.ks"  size="20"  x="912"  y="355"  width="260"  height=""  text="Não,&nbsp;podemos&nbsp;ir!"  _clickable_img=""  target="*continue"  ]
 [s  ]
 *p1
 

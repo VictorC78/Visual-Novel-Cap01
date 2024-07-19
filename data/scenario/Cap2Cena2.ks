@@ -106,8 +106,8 @@ Horrível nada. É maravilhoso ficar por aqui sem ganhar falta.[p]
 A gente vai jogar agora contra uma turma da tarde, falta só um para completar o time. Sabe jogar futebol?[p]
 [_tb_end_text]
 
-[glink  color="green"  storage="Cap2Cena2.ks"  size="20"  text="Jogar"  x="100"  y="58"  width=""  height=""  _clickable_img=""  target="*jogar"  ]
-[glink  color="green"  storage="Cap2Cena2.ks"  size="20"  text="Negar"  x="96"  y="113"  width=""  height=""  _clickable_img=""  target="*naoJogar"  ]
+[glink  color="btn_16_lime"  storage="Cap2Cena2.ks"  size="20"  text="Jogar"  x="100"  y="58"  width="200"  height=""  _clickable_img=""  target="*jogar"  ]
+[glink  color="btn_16_lime"  storage="Cap2Cena2.ks"  size="20"  text="Negar"  x="100"  y="123"  width="200"  height=""  _clickable_img=""  target="*naoJogar"  ]
 [s  ]
 *jogar
 

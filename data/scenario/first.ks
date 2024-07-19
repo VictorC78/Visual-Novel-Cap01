@@ -29,7 +29,7 @@
 [jump storage="title_screen.ks"]
 
 ;--------------------------
-
+;[hidemenubutton]
 [s]
 
 

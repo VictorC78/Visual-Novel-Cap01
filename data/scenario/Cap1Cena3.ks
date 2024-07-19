@@ -39,8 +39,8 @@ Por gentileza, coloque sua mochila no armário.[p]
 [chara_hide  name="DonaAnastacia"  time="0"  wait="true"  pos_mode="true"  ]
 [tb_hide_message_window  ]
 [tb_image_show  time="0"  storage="default/armario_001.png"  width="921"  height="1334"  x="-143"  y="-112"  _clickable_img=""  name="img_17"  ]
-[glink  color="ts14"  storage="Cap1Cena3.ks"  size="20"  x="786"  y="389"  width="220"  height=""  text="Guardar&nbsp;Mochila"  _clickable_img=""  target="*guardouMochila"  ]
-[glink  color="ts14"  storage="Cap1Cena3.ks"  size="20"  text="Ignorar"  x="785"  y="325"  width="220"  height=""  _clickable_img=""  target="*ignorou"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena3.ks"  size="20"  x="786"  y="389"  width="220"  height=""  text="Guardar&nbsp;Mochila"  _clickable_img=""  target="*guardouMochila"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena3.ks"  size="20"  text="Ignorar"  x="785"  y="325"  width="220"  height=""  _clickable_img=""  target="*ignorou"  ]
 [s  ]
 *guardouMochila
 
@@ -99,10 +99,10 @@ Coloque essa mochila no armário, não irei pedir novamente.[p]
 [_tb_end_text]
 
 [chara_hide_all  time="0"  wait="true"  ]
-[tb_image_show  time="0"  storage="default/armario_001.png"  width="921"  height="1334"  x="-143"  y="-112"  _clickable_img=""  name="img_47"  ]
+[tb_image_show  time="0"  storage="default/armario_001.png"  width="921"  height="1334"  x="-143"  y="-112"  _clickable_img=""  name="img_46"  ]
 [tb_hide_message_window  ]
-[glink  color="ts14"  storage="Cap1Cena3.ks"  size="20"  text="Ignorar&nbsp;de&nbsp;novo"  x="785"  y="325"  width="220"  height=""  _clickable_img=""  target="*ignorarDeNovo"  ]
-[glink  color="ts14"  storage="Cap1Cena3.ks"  size="20"  x="786"  y="389"  width="220"  height=""  text="Guardar&nbsp;Mochila"  _clickable_img=""  target="*guardarMochila2"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena3.ks"  size="20"  text="Ignorar&nbsp;de&nbsp;novo"  x="785"  y="325"  width="220"  height=""  _clickable_img=""  target="*ignorarDeNovo"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena3.ks"  size="20"  x="786"  y="389"  width="220"  height=""  text="Guardar&nbsp;Mochila"  _clickable_img=""  target="*guardarMochila2"  ]
 [s  ]
 *ignorarDeNovo
 

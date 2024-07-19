@@ -385,9 +385,9 @@ Alguém tem alguma pergunta?[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[glink  color="ts14"  storage="Cap1Cena8.ks"  size="20"  x="193"  y="418"  width="900"  height=""  text="Como&nbsp;eu&nbsp;construo&nbsp;os&nbsp;algoritmos&nbsp;dentro&nbsp;da&nbsp;programação?"  _clickable_img=""  target="*p1"  ]
-[glink  color="ts14"  storage="Cap1Cena8.ks"  size="20"  x="193"  y="478"  width="900"  height=""  text="Por&nbsp;que&nbsp;os&nbsp;algoritmos&nbsp;são&nbsp;importantes&nbsp;na&nbsp;computação?"  _clickable_img=""  target="*p2"  ]
-[glink  color="ts14"  storage="Cap1Cena8.ks"  size="20"  x="193"  y="538"  width="900"  height=""  text="Quais&nbsp;são&nbsp;as&nbsp;características&nbsp;principais&nbsp;de&nbsp;um&nbsp;bom&nbsp;algoritmo?"  _clickable_img=""  target="*p3"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena8.ks"  size="20"  x="193"  y="418"  width="900"  height=""  text="Como&nbsp;eu&nbsp;construo&nbsp;os&nbsp;algoritmos&nbsp;dentro&nbsp;da&nbsp;programação?"  _clickable_img=""  target="*p1"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena8.ks"  size="20"  x="193"  y="478"  width="900"  height=""  text="Por&nbsp;que&nbsp;os&nbsp;algoritmos&nbsp;são&nbsp;importantes&nbsp;na&nbsp;computação?"  _clickable_img=""  target="*p2"  ]
+[glink  color="btn_16_lime"  storage="Cap1Cena8.ks"  size="20"  x="193"  y="538"  width="900"  height=""  text="Quais&nbsp;são&nbsp;as&nbsp;características&nbsp;principais&nbsp;de&nbsp;um&nbsp;bom&nbsp;algoritmo?"  _clickable_img=""  target="*p3"  ]
 [s  ]
 *p1
 
