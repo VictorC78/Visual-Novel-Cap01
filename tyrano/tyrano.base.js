@@ -13,7 +13,7 @@ tyrano.base = {
             .get(".tyrano_base")
             .css("width", width)
             .css("height", height)
-            .css("background-color", "black");
+            .css("background-color", "white");
     },
 
     fitBaseSize: function (width, height) {
